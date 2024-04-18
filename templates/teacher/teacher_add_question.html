@@ -1,0 +1,236 @@
+{% extends 'teacher/teacherbase.html' %}
+{% load widget_tweaks %}
+{% block content %}
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "@google/generative-ai": "https://esm.run/@google/generative-ai"
+        }
+      }
+    </script>
+    <style>
+      #id_question2{
+        margin-bottom: 10px;
+      }
+      #blooms{
+        height: 34px;
+        padding: 6px 12px;
+        margin-bottom: 15px;
+      }
+      #blooms2{
+        height: 34px;
+        padding: 6px 12px;
+        margin-bottom: 15px;
+      }
+      .options{
+        margin-top: 10px;
+    margin-bottom: 15px;
+        display: flex;
+      flex-direction: column;
+  
+      }
+      .columns{
+        display: flex;
+      flex-direction: row;
+      }
+      .Generate_question{
+        display: flex;
+      flex-direction: column;
+      
+      }
+        a:link {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<div class="columns">
+<div>
+<h2 style="text-align:center;">Add Question</h2>
+<form method="POST" autocomplete="off" style="margin:100px;margin-top: 0px;">
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="question">Exam</label>
+        {% render_field questionForm.courseID|attr:'required:true' class="form-control" %}
+        <br>
+        <label for="question">Question</label>
+        {% render_field questionForm.question|attr:'required:true' class="form-control" placeholder="Example: Which of the following is a linear data structure?" %}
+        <br>
+        <label for="question_number">Marks</label>
+        {% render_field questionForm.marks|attr:'required:true' class="form-control" placeholder="Example: 5" %}
+        <br>
+        <label for="option1">Option 1</label>
+        {% render_field questionForm.option1|attr:'required:true' class="form-control" placeholder="Example: Array" %}
+        <br>
+        <label for="option2">Option 2</label>
+        {% render_field questionForm.option2|attr:'required:true' class="form-control" placeholder="Example: AVL Trees" %}
+        <br>
+        <label for="option3">Option 3</label>
+        {% render_field questionForm.option3|attr:'required:true' class="form-control" placeholder="Example: Binary Trees" %}
+        <br>
+        <label for="option4">Option 4</label>
+        {% render_field questionForm.option4|attr:'required:true' class="form-control" placeholder="Example: Graphs" %}
+        <br>
+        <label for="answer" id="correctAnswerLabel">Correct Answer</label>
+{% render_field questionForm.answer|attr:'required:true' class="form-control" id="correctAnswerField" %}
+
+    </div>
+    <button type="submit" class="btn btn-success" style="border-radius: 0%;">Submit Question</button>
+</form>
+</div>
+<div class="Generate_question">
+  <h2 style="text-align:center;">Generate Question</h2>
+  <label for="id_question2">Enter text</label>
+<textarea name="question2" cols="55" rows="7" maxlength="600" placeholder="Example: Data structures are essential components that help organize and store data efficiently in computer memory." class="form-control" required="" id="id_question2"></textarea>
+<div class="options">
+<label for="blooms">Blooms Taxonomy</label>
+<select id="blooms" class="form-control">
+  <option value="Create">Create</option>
+  <option value="Evaluate">Evaluate</option>
+  <option value="Analyze">Analyze</option>
+  <option value="Apply" selected>Apply</option>
+  <option value="Understand">Understand</option>
+  <option value="Remember">Remember</option>
+</select>
+<label for="difficulty">Difficulty</label>
+<select id="blooms2" class="form-control">
+  <option value="Easy">Easy</option>
+  <option value="Medium" selected>Medium</option>
+  <option value="Hard">Hard</option>
+</select>
+</div>
+<button id="getElementButton" type="button" class="btn btn-primary" style="border-radius: 0%;">Generate Question</button>
+</div>
+</div>
+<br><br><br>
+
+
+<script type="module">
+  import { GoogleGenerativeAI } from "@google/generative-ai";
+    $(document).ready(function(){
+        $('#getElementButton').click(function(){
+          const mykey = "AIzaSyCoLQnJWSk6zPOsdZ0Hq0jNC6deWR7x8BE";
+
+      // Access your API key (see "Set up your API key" above)
+      const genAI = new GoogleGenerativeAI(mykey);
+
+      // ...
+
+      async function run() {
+        // For text-only input, use the gemini-pro model
+        const model = genAI.getGenerativeModel({ model: "gemini-pro"});
+      
+        let prompt = "from this text, generate an mcq question, four options and its correct option: '";
+let textf = document.getElementById('id_question2');
+let textfull = textf.value;
+
+let selectElement1 = document.getElementById('blooms2');
+let selectedOption1 = selectElement1.options[selectElement1.selectedIndex];
+let selectedValue1 = selectedOption1.value;
+
+let selectElement2 = document.getElementById('blooms');
+let selectedOption2 = selectElement2.options[selectElement2.selectedIndex];
+let selectedValue2 = selectedOption2.value;
+
+prompt = prompt + textfull + "'. Difficulty level of the MCQ :" + selectedValue1 + "Blooms taxonomy level of question:" + selectedValue2 ;
+
+        const result = await model.generateContent(prompt);
+        const response = await result.response;
+        const text = response.text();
+        console.log(text);
+        var exampleString = text.replace(/\*\*.*?\*\*/g, '::').replace(/\n/g, '::').trim(); 
+        let stringsArray = exampleString.split(/:+/);
+        $('textarea[name="question"]').val(stringsArray[1]);
+        var opt1=stringsArray[2];
+        if (/[^a-zA-Z0-9]/.test(opt1.charAt(0))) {
+          // Remove the first three characters
+          opt1 = opt1.substring(3);
+      }
+      else if (/[^a-zA-Z0-9]/.test(opt1.charAt(1))) {
+        // Remove the first three characters
+        opt1 = opt1.substring(2);
+    }
+
+    var opt2=stringsArray[3];
+        if (/[^a-zA-Z0-9]/.test(opt2.charAt(0))) {
+          // Remove the first three characters
+          opt2 = opt2.substring(3);
+      }
+      else if (/[^a-zA-Z0-9]/.test(opt2.charAt(1))) {
+        // Remove the first three characters
+        opt2 = opt2.substring(2);
+    }
+
+    var opt3=stringsArray[4];
+    if (/[^a-zA-Z0-9]/.test(opt3.charAt(0))) {
+      // Remove the first three characters
+      opt3 = opt3.substring(3);
+  }
+  else if (/[^a-zA-Z0-9]/.test(opt3.charAt(1))) {
+    // Remove the first three characters
+    opt3 = opt3.substring(2);
+}
+
+var opt4=stringsArray[5];
+if (/[^a-zA-Z0-9]/.test(opt4.charAt(0))) {
+  // Remove the first three characters
+  opt4 = opt4.substring(3);
+}
+else if (/[^a-zA-Z0-9]/.test(opt4.charAt(1))) {
+// Remove the first three characters
+opt4 = opt4.substring(2);
+}
+
+
+        $('input[name="option1"]').val(opt1);
+        $('input[name="option2"]').val(opt2);
+        $('input[name="option3"]').val(opt3);
+        $('input[name="option4"]').val(opt4);
+      var option_make;
+      var corr_opt=stringsArray[6];
+      if (/[^a-zA-Z0-9]/.test(corr_opt.charAt(0))) {
+        // Remove the first three characters
+        corr_opt = corr_opt.substring(1);
+      }
+      var opt_only=corr_opt[0];
+      console.log(opt_only);
+       opt_only = opt_only.toLowerCase(); // Convert to lowercase for case-insensitive comparison
+      // Check if the character is 'a', 'A', or '1'
+      if (opt_only === 'a' || opt_only === '1') {
+          // Update the value of another variable
+          option_make = "Option1";
+      }
+
+      else if(opt_only === 'b' || opt_only === '2') {
+        // Update the value of another variable
+        option_make = "Option2";
+    }
+    else if(opt_only === 'c' || opt_only === '3') {
+      // Update the value of another variable
+      option_make = "Option3";
+  }
+  else if(opt_only === 'd' || opt_only === '4') {
+    // Update the value of another variable
+    option_make = "Option4";
+}
+console.log(option_make);
+$('#correctAnswerField').val(option_make);
+      }
+      
+      run();
+      var newAnswerValue = "Option2"; // You can change this to the value of the desired new correct answer
+
+            // Update the selected option based on its value
+
+
+            
+
+           
+        });
+    });
+</script>
+{% endblock content %}

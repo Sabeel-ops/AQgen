@@ -1,0 +1,570 @@
+Topic,Question Text,Options,Answer,Difficulty Level,Bloom's Taxonomy Level
+Arrays,What is the time complexity of searching an element in a sorted array using binary search?,"A. O(1), B. O(log n), C. O(n), D. O(n log n)",B,Medium,Apply
+Linked Lists,Which of the following is true about a doubly linked list?,"A. It can only be traversed in one direction, B. It contains two pointers, C. It is always circular, D. It does not allow deletion",B,Easy,Remember
+Queues,What data structure is typically used to implement a queue?,"A. Array, B. Linked List, C. Stack, D. Tree",B,Medium,Understand
+Trees,What is the maximum number of children a node can have in a binary tree?,"A. 1, B. 2, C. 3, D. Unlimited",B,Easy,Remember
+Graphs,Which traversal algorithm visits all the vertices of a graph exactly once?,"A. Depth-First Search, B. Breadth-First Search, C. Dijkstra's Algorithm, D. Prim's Algorithm",B,Medium,Apply
+Hashing,What is the purpose of a hash function in hashing?,"A. To generate random numbers, B. To compress data, C. To convert data into an index, D. To encrypt data",C,Easy,Understand
+Heaps,What is the main advantage of a max heap over a min heap?,"A. Faster insertion, B. Faster deletion, C. Quick access to the minimum element, D. Quick access to the maximum element",C,Medium,Apply
+Sorting,Which sorting algorithm has the worst-case time complexity of O(n^2)?,"A. Merge Sort, B. Quick Sort, C. Bubble Sort, D. Insertion Sort",C,Medium,Understand
+Recursion,What is the base case in a recursive function?,"A. The case with the smallest input, B. The case with the largest input, C. The case with average input, D. The case with no input",A,Easy,Remember
+Dynamic Programming,What is the key idea behind dynamic programming?,"A. Divide and conquer, B. Greedy approach, C. Memoization of subproblems, D. Random selection",C,Medium,Apply
+Graph Algorithms,What is the purpose of topological sorting in directed acyclic graphs (DAGs)?,"A. Finding cycles, B. Detecting connected components, C. Sorting vertices based on dependencies, D. Finding shortest paths",C,Medium,Analyze
+Hash Tables,What is the load factor of a hash table?,"A. The number of elements in the table, B. The ratio of occupied slots to total slots, C. The size of the hash function, D. The number of collisions",B,Easy,Understand
+Graph Representation,Which data structure is commonly used to represent a graph?,"A. Array, B. Linked List, C. Stack, D. Queue",A,Easy,Remember
+Sorting,What is the time complexity of the quicksort algorithm in the average case?,"A. O(n), B. O(n log n), C. O(n^2), D. O(log n)",B,Medium,Apply
+Dynamic Programming,What is the overlapping subproblem property in dynamic programming?,"A. Subproblems share subsubproblems, B. Subproblems are unrelated, C. Subproblems have common elements, D. Subproblems have different inputs",A,Medium,Analyze
+Stacks,Which operation removes an element from the top of a stack?,"A. Push, B. Pop, C. Peek, D. IsEmpty",B,Easy,Remember
+Trees,What is the height of a balanced binary search tree with 8 nodes?,"A. 2, B. 3, C. 4, D. 5",B,Medium,Analyze
+Arrays,What is the time complexity of inserting an element at the beginning of an array?,"A. O(1), B. O(log n), C. O(n), D. O(n log n)",A,Easy,Remember
+Arrays,What is the time complexity of merging two sorted arrays of lengths m and n?,"A. O(m), B. O(n), C. O(m + n), D. O(m log n)",C,Medium,Apply
+Linked Lists,Which of the following is an advantage of a singly linked list over a doubly linked list?,"A. Constant space overhead, B. Easier traversal in reverse, C. Better memory utilization, D. Faster insertion and deletion",D,Moderate,Analyze
+Queues,What is the purpose of a circular queue?,"A. Efficient memory utilization, B. Faster insertion and deletion, C. Handling dynamic memory allocation, D. Avoiding memory leaks",B,Medium,Apply
+Trees,What is the height of a complete binary tree with 15 nodes?,"A. 3, B. 4, C. 5, D. 6",B,Medium,Analyze
+Graphs,What is the time complexity of the Kruskal's algorithm for finding a minimum spanning tree?,"A. O(n log n), B. O(n^2), C. O(n^3), D. O(m log n)",A,Medium,Apply
+Hashing,What is a collision in hashing?,"A. The process of hash function calculation, B. The process of finding the hash index, C. When two keys hash to the same index, D. The process of hash table resizing",C,Easy,Understand
+Heaps,What is the main drawback of using a heap data structure for priority queues?,"A. Inefficient insertion, B. Inefficient deletion, C. Difficulty in implementation, D. Lack of random access",D,Moderate,Analyze
+Sorting,Which sorting algorithm is not stable?,"A. Bubble Sort, B. Merge Sort, C. Insertion Sort, D. Quick Sort",D,Easy,Remember
+Recursion,What is the significance of the Fibonacci sequence in recursive algorithms?,"A. It represents an arithmetic sequence, B. It demonstrates divide and conquer, C. It exhibits overlapping subproblems, D. It highlights dynamic programming",C,Medium,Analyze
+Search Algorithms,What is the time complexity of linear search in the worst case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Dynamic Programming,What is memoization in dynamic programming?,"A. Storing results of expensive function calls and returning the cached result when the same inputs occur again, B. Repeating the same computation multiple times, C. Optimizing the function for better performance, D. Ignoring subproblems and solving the main problem directly",A,Medium,Apply
+Graph Algorithms,What is the purpose of Dijkstra's algorithm?,"A. Finding a minimum spanning tree, B. Shortest path in a weighted graph, C. Topological sorting, D. Detecting cycles in a graph",B,Moderate,Apply
+Hash Tables,What is the purpose of rehashing in hashing?,"A. Increasing the load factor, B. Changing the hash function, C. Resolving collisions, D. Enforcing security",C,Medium,Apply
+Graph Representation,Which of the following is a common representation of a graph in computer memory?,"A. Incidence matrix, B. Adjacency matrix, C. Adjacency list, D. Hash table",C,Easy,Understand
+Sorting,What is the best-case time complexity of the bubble sort algorithm?,"A. O(n), B. O(n log n), C. O(n^2), D. O(log n)",A,Easy,Remember
+Dynamic Programming,What is the optimal substructure property in dynamic programming?,"A. Subproblems share subsubproblems, B. Subproblems are unrelated, C. Subproblems have common elements, D. Subproblems have different inputs",A,Medium,Analyze
+Stacks,Which operation checks if a stack is empty?,"A. Push, B. Pop, C. Peek, D. IsEmpty",D,Easy,Remember
+Trees,What is the maximum number of leaf nodes in a binary tree with height h?,"A. 2^h, B. h, C. 2h, D. h^2",A,Moderate,Analyze
+Arrays,What is the time complexity of deleting an element from an unsorted array?,"A. O(1), B. O(log n), C. O(n), D. O(n log n)",C,Easy,Understand
+Linked Lists,What is the time complexity of inserting an element at the end of a singly linked list?,"A. O(1), B. O(log n), C. O(n), D. O(n log n)",A,Easy,Remember
+Queues,What is the purpose of a double-ended queue (deque)?,"A. Efficient insertion, B. Efficient deletion, C. Efficient insertion and deletion at both ends, D. Efficient random access",C,Medium,Apply
+Graphs,What is the minimum number of edges in a connected undirected graph with n vertices to form a cycle?,"A. n-1, B. n, C. n+1, D. 2n",A,Medium,Apply
+Hashing,What is the advantage of using separate chaining for collision resolution in hashing?,"A. Simplicity of implementation, B. Better memory utilization, C. Faster access time, D. Avoidance of collisions",A,Medium,Apply
+Heaps,What is the purpose of a min heap?,"A. To maintain elements in ascending order, B. To maintain elements in descending order, C. To maintain the minimum element at the root, D. To maintain the maximum element at the root",C,Easy,Understand
+Sorting,What is the time complexity of the selection sort algorithm?,"A. O(n), B. O(n log n), C. O(n^2), D. O(log n)",C,Medium,Apply
+Graph Representation,Which representation of a graph is more space-efficient for a sparse graph?,"A. Adjacency matrix, B. Adjacency list, C. Incidence matrix, D. Hash table",B,Medium,Apply
+Sorting,What is the time complexity of the merge sort algorithm in the worst case?,"A. O(n), B. O(n log n), C. O(n^2), D. O(log n)",B,Medium,Analyze
+Recursion,What is the purpose of a recursive helper function?,"A. To make the code shorter, B. To avoid recursion, C. To handle exceptional cases, D. To perform the actual recursion with additional parameters",D,Easy,Remember
+Search Algorithms,Which data structure is typically used to implement a priority queue?,"A. Array, B. Linked List, C. Heap, D. Stack",C,Easy,Understand
+Dynamic Programming,What is the time complexity of the Fibonacci sequence calculation using dynamic programming?,"A. O(n), B. O(log n), C. O(2^n), D. O(n^2)",A,Medium,Apply
+Graph Algorithms,What is the difference between breadth-first search (BFS) and depth-first search (DFS) in a graph?,"A. BFS is recursive, DFS uses a queue, B. BFS uses a stack, DFS uses a queue, C. BFS uses a queue, DFS uses a stack, D. BFS is iterative, DFS uses recursion",C,Medium,Analyze
+Hash Tables,What is the purpose of a hash collision in open addressing?,"A. Efficient memory utilization, B. Efficient search time, C. Efficient insertion time, D. Resolving conflicts by checking the next slot",D,Medium,Analyze
+Graph Representation,Which representation of a graph is more space-efficient for a dense graph?,"A. Adjacency matrix, B. Adjacency list, C. Incidence matrix, D. Hash table",A,Moderate,Apply
+Sorting,What is the time complexity of the insertion sort algorithm in the worst case?,"A. O(n), B. O(n log n), C. O(n^2), D. O(log n)",C,Easy,Understand
+Recursion,What is the role of the base case in a recursive algorithm?,"A. To stop the recursion, B. To increase efficiency, C. To handle exceptional cases, D. To make the code shorter",A,Easy,Remember
+Search Algorithms,What is the time complexity of linear search in the average case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Dynamic Programming,What is the purpose of memoization in dynamic programming?,"A. Storing results of expensive function calls and returning the cached result when the same inputs occur again, B. Repeating the same computation multiple times, C. Optimizing the function for better performance, D. Ignoring subproblems and solving the main problem directly",A,Medium,Apply
+Graph Algorithms,What is the time complexity of Prim's algorithm for finding a minimum spanning tree?,"A. O(V), B. O(E), C. O(V log V), D. O(E log V)",C,Moderate,Apply
+Hash Tables,What is the purpose of a perfect hash function in hashing?,"A. To avoid collisions, B. To generate random numbers, C. To compress data, D. To convert data into an index",A,Moderate,Apply
+Graph Representation,Which data structure is commonly used to represent a weighted graph?,"A. Array, B. Linked List, C. Matrix, D. Heap",C,Easy,Understand
+Recursion,What is the significance of the base case in recursion?,"A. To stop the recursion, B. To increase efficiency, C. To handle exceptional cases, D. To make the code shorter",A,Easy,Remember
+Search Algorithms,What is the time complexity of binary search in the average case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Moderate,Apply
+Dynamic Programming,What is the purpose of bottom-up dynamic programming?,"A. Starting from the top of the problem hierarchy, B. Starting from the bottom of the problem hierarchy, C. Optimizing the function for better performance, D. Ignoring subproblems and solving the main problem directly",B,Medium,Apply
+Trees,What is the maximum height of a binary tree with 10 nodes?,"A. 3, B. 4, C. 5, D. 6",B,Medium,Analyze
+Arrays,What is the time complexity of finding the maximum element in an unsorted array?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Easy,Remember
+Linked Lists,What is the advantage of a circular linked list over a linear linked list?,"A. Easier traversal, B. Efficient memory utilization, C. Simplicity of implementation, D. Faster access time",B,Moderate,Apply
+Queues,What is the purpose of a priority queue in computer science?,"A. To execute processes in order, B. To maintain elements in a specific order, C. To schedule tasks based on priority, D. To avoid race conditions",C,Medium,Apply
+Graphs,What is a spanning tree in graph theory?,"A. A tree that spans all the vertices in a graph, B. A tree with only one vertex, C. A tree with the minimum number of vertices, D. A tree with the maximum number of vertices",A,Moderate,Analyze
+Hashing,What is the primary advantage of using separate chaining for collision resolution in hashing?,"A. Simplicity of implementation, B. Better memory utilization, C. Faster access time, D. Avoidance of collisions",A,Easy,Understand
+Heaps,What is the time complexity of inserting an element into a binary heap?,"A. O(1), B. O(log n), C. O(n), D. O(n log n)",B,Medium,Apply
+Sorting,Which sorting algorithm has the best average-case time complexity?,"A. Bubble Sort, B. Merge Sort, C. Insertion Sort, D. Quick Sort",B,Medium,Analyze
+Recursion,What is the concept of tail recursion in recursive algorithms?,"A. A recursion with no base case, B. A recursion with only one recursive call at the end, C. A recursion with multiple recursive calls, D. A recursion that uses a loop instead of recursion",B,Easy,Understand
+Dynamic Programming,What is the main advantage of memoization in dynamic programming?,"A. Improved performance, B. Reduced space complexity, C. Simplicity of implementation, D. Avoidance of recursion",A,Medium,Apply
+Graph Algorithms,What is the purpose of Kosaraju's algorithm in graph theory?,"A. Finding strongly connected components, B. Detecting cycles, C. Computing shortest paths, D. Constructing a minimum spanning tree",A,Moderate,Apply
+Hash Tables,What is the purpose of double hashing in open addressing for collision resolution?,"A. Efficient memory utilization, B. Efficient search time, C. Handling collisions by checking the next slot, D. Avoiding collisions",D,Medium,Apply
+Graph Representation,Which representation of a graph is most suitable for a sparse graph?,"A. Adjacency matrix, B. Adjacency list, C. Incidence matrix, D. Hash table",B,Medium,Apply
+Sorting,What is the time complexity of the selection sort algorithm in the worst case?,"A. O(n), B. O(n log n), C. O(n^2), D. O(log n)",C,Easy,Understand
+Recursion,What is the role of a recursive helper function in a recursive algorithm?,"A. To make the code shorter, B. To avoid recursion, C. To handle exceptional cases, D. To perform the actual recursion with additional parameters",D,Medium,Apply
+Search Algorithms,What is the time complexity of binary search in the average case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Moderate,Apply
+Dynamic Programming,What is the purpose of tabulation in dynamic programming?,"A. Storing results of expensive function calls, B. Repeating the same computation multiple times, C. Optimizing the function for better performance, D. Ignoring subproblems and solving the main problem directly",A,Medium,Apply
+Graph Algorithms,What is the time complexity of depth-first search (DFS) in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(log V)",C,Medium,Apply
+Hash Tables,What is the purpose of linear probing in open addressing for collision resolution?,"A. Faster access time, B. Better memory utilization, C. Handling collisions by checking the next slot, D. Avoiding collisions",C,Moderate,Apply
+Graph Representation,Which representation of a graph is more space-efficient for a sparse graph?,"A. Adjacency matrix, B. Adjacency list, C. Incidence matrix, D. Hash table",B,Medium,Apply
+Sorting,What is the time complexity of the merge sort algorithm in the worst case?,"A. O(n), B. O(n log n), C. O(n^2), D. O(log n)",B,Medium,Analyze
+Recursion,What is the purpose of a recursive helper function?,"A. To make the code shorter, B. To avoid recursion, C. To handle exceptional cases, D. To perform the actual recursion with additional parameters",D,Easy,Remember
+Search Algorithms,Which data structure is typically used to implement a priority queue?,"A. Array, B. Linked List, C. Heap, D. Stack",C,Easy,Understand
+Dynamic Programming,What is the time complexity of the Fibonacci sequence calculation using dynamic programming?,"A. O(n), B. O(log n), C. O(2^n), D. O(n^2)",A,Medium,Apply
+Graph Algorithms,What is the difference between breadth-first search (BFS) and depth-first search (DFS) in a graph?,"A. BFS is recursive, DFS uses a queue, B. BFS uses a stack, DFS uses a queue, C. BFS uses a queue, DFS uses a stack, D. BFS is iterative, DFS uses recursion",C,Medium,Analyze
+Hash Tables,What is the purpose of a perfect hash function in hashing?,"A. To avoid collisions, B. To generate random numbers, C. To compress data, D. To convert data into an index",A,Moderate,Apply
+Graph Representation,Which data structure is commonly used to represent a weighted graph?,"A. Array, B. Linked List, C. Matrix, D. Heap",C,Easy,Understand
+Recursion,What is the significance of the base case in recursion?,"A. To stop the recursion, B. To increase efficiency, C. To handle exceptional cases, D. To make the code shorter",A,Easy,Remember
+Search Algorithms,What is the time complexity of binary search in the average case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Moderate,Apply
+Dynamic Programming,What is the purpose of bottom-up dynamic programming?,"A. Starting from the top of the problem hierarchy, B. Starting from the bottom of the problem hierarchy, C. Optimizing the function for better performance, D. Ignoring subproblems and solving the main problem directly",B,Medium,Apply
+Graph Algorithms,What is the time complexity of breadth-first search (BFS) in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(log V)",C,Medium,Apply
+Hash Tables,What is the purpose of a perfect hash function in hashing?,"A. To avoid collisions, B. To generate random numbers, C. To compress data, D. To convert data into an index",A,Moderate,Apply
+Graph Representation,Which data structure is commonly used to represent a weighted graph?,"A. Array, B. Linked List, C. Matrix, D. Heap",C,Easy,Understand
+Recursion,What is the significance of the base case in recursion?,"A. To stop the recursion, B. To increase efficiency, C. To handle exceptional cases, D. To make the code shorter",A,Easy,Remember
+Search Algorithms,What is the time complexity of binary search in the average case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Moderate,Apply
+Dynamic Programming,What is the purpose of bottom-up dynamic programming?,"A. Starting from the top of the problem hierarchy, B. Starting from the bottom of the problem hierarchy, C. Optimizing the function for better performance, D. Ignoring subproblems and solving the main problem directly",B,Medium,Apply
+Graph Algorithms,What is the time complexity of breadth-first search (BFS) in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(log V)",C,Medium,Apply
+Hash Tables,What is the purpose of a perfect hash function in hashing?,"A. To avoid collisions, B. To generate random numbers, C. To compress data, D. To convert data into an index",A,Moderate,Apply
+Graph Representation,Which data structure is commonly used to represent a weighted graph?,"A. Array, B. Linked List, C. Matrix, D. Heap",C,Easy,Understand
+Recursion,What is the significance of the base case in recursion?,"A. To stop the recursion, B. To increase efficiency, C. To handle exceptional cases, D. To make the code shorter",A,Easy,Remember
+Search Algorithms,What is the time complexity of binary search in the average case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Moderate,Apply
+Dynamic Programming,What is the purpose of bottom-up dynamic programming?,"A. Starting from the top of the problem hierarchy, B. Starting from the bottom of the problem hierarchy, C. Optimizing the function for better performance, D. Ignoring subproblems and solving the main problem directly",B,Medium,Apply
+Graph Algorithms,What is the time complexity of breadth-first search (BFS) in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(log V)",C,Medium,Apply
+Hash Tables,What is the purpose of a perfect hash function in hashing?,"A. To avoid collisions, B. To generate random numbers, C. To compress data, D. To convert data into an index",A,Moderate,Apply
+Graph Representation,Which data structure is commonly used to represent a weighted graph?,"A. Array, B. Linked List, C. Matrix, D. Heap",C,Easy,Understand
+Recursion,What is the significance of the base case in recursion?,"A. To stop the recursion, B. To increase efficiency, C. To handle exceptional cases, D. To make the code shorter",A,Easy,Remember
+Search Algorithms,What is the time complexity of binary search in the average case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Moderate,Apply
+Dynamic Programming,What is the purpose of bottom-up dynamic programming?,"A. Starting from the top of the problem hierarchy, B. Starting from the bottom of the problem hierarchy, C. Optimizing the function for better performance, D. Ignoring subproblems and solving the main problem directly",B,Medium,Apply
+Graph Algorithms,What is the time complexity of breadth-first search (BFS) in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(log V)",C,Medium,Apply
+Hash Tables,What is the purpose of a perfect hash function in hashing?,"A. To avoid collisions, B. To generate random numbers, C. To compress data, D. To convert data into an index",A,Moderate,Apply
+Graph Representation,Which data structure is commonly used to represent a weighted graph?,"A. Array, B. Linked List, C. Matrix, D. Heap",C,Easy,Understand
+Trees,What is the minimum height of a binary search tree with 10 nodes?,"A. 3, B. 4, C. 5, D. 6",A,Moderate,Analyze
+Arrays,What is the time complexity of searching for an element in a sorted array using binary search?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Easy,Understand
+Linked Lists,What is the primary advantage of a doubly linked list over a singly linked list?,"A. Easier traversal in reverse, B. Better memory utilization, C. Faster insertion and deletion, D. Constant space overhead",C,Moderate,Apply
+Queues,What is the purpose of a priority queue in computer science?,"A. To execute processes in order, B. To maintain elements in a specific order, C. To schedule tasks based on priority, D. To avoid race conditions",C,Medium,Apply
+Graphs,What is a spanning tree in graph theory?,"A. A tree that spans all the vertices in a graph, B. A tree with only one vertex, C. A tree with the minimum number of vertices, D. A tree with the maximum number of vertices",A,Moderate,Analyze
+Hashing,What is the primary advantage of using open addressing for collision resolution in hashing?,"A. Simplicity of implementation, B. Better memory utilization, C. Faster access time, D. Avoidance of collisions",C,Easy,Understand
+Heaps,What is the time complexity of deleting the maximum element from a binary heap?,"A. O(1), B. O(log n), C. O(n), D. O(n log n)",B,Medium,Apply
+Sorting,Which sorting algorithm has the best worst-case time complexity?,"A. Bubble Sort, B. Merge Sort, C. Insertion Sort, D. Quick Sort",B,Medium,Analyze
+Recursion,What is the concept of a base case in recursive algorithms?,"A. A case that is used as a starting point, B. A case that does not involve recursion, C. A case that handles exceptional conditions, D. A case that terminates the recursion",D,Easy,Remember
+Search Algorithms,What is the main advantage of interpolation search over binary search?,"A. Lower time complexity, B. Less memory usage, C. Better adaptability to different data distributions, D. Simplicity of implementation",C,Moderate,Apply
+Dynamic Programming,What is the purpose of bottom-up dynamic programming?,"A. Starting from the top of the problem hierarchy, B. Starting from the bottom of the problem hierarchy, C. Optimizing the function for better performance, D. Ignoring subproblems and solving the main problem directly",B,Medium,Apply
+Graph Algorithms,What is the time complexity of depth-first search (DFS) in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(log V)",C,Medium,Apply
+Hash Tables,What is the purpose of linear probing in open addressing for collision resolution?,"A. Faster access time, B. Better memory utilization, C. Handling collisions by checking the next slot, D. Avoiding collisions",C,Moderate,Apply
+Graph Representation,Which representation of a graph is more space-efficient for a sparse graph?,"A. Adjacency matrix, B. Adjacency list, C. Incidence matrix, D. Hash table",B,Medium,Apply
+Sorting,What is the time complexity of the bubble sort algorithm in the best case?,"A. O(n), B. O(n log n), C. O(n^2), D. O(log n)",A,Easy,Remember
+Dynamic Programming,What is the optimal substructure property in dynamic programming?,"A. Subproblems share subsubproblems, B. Subproblems are unrelated, C. Subproblems have common elements, D. Subproblems have different inputs",A,Medium,Analyze
+Trees,What is the maximum number of edges in a binary tree with n nodes?,"A. n, B. n-1, C. 2n, D. 2n-1",B,Moderate,Analyze
+Arrays,What is the time complexity of inserting an element at the beginning of an array?,"A. O(1), B. O(log n), C. O(n), D. O(n log n)",A,Easy,Remember
+Linked Lists,What is the time complexity of reversing a singly linked list?,"A. O(1), B. O(log n), C. O(n), D. O(n log n)",C,Medium,Apply
+Queues,Which type of queue allows elements to be added or removed from both ends?,"A. Priority Queue, B. Circular Queue, C. Double-ended Queue (Deque), D. Linear Queue",C,Moderate,Apply
+Graphs,What is a bipartite graph?,"A. A graph with two connected components, B. A graph with two vertices, C. A graph with two edges, D. A graph whose vertices can be divided into two disjoint sets",D,Medium,Analyze
+Hashing,What is the purpose of a hash collision in open addressing?,"A. Efficient memory utilization, B. Efficient search time, C. Efficient insertion time, D. Resolving conflicts by checking the next slot",D,Medium,Analyze
+Heaps,What is the time complexity of extracting the minimum element from a binary min-heap?,"A. O(1), B. O(log n), C. O(n), D. O(n log n)",B,Medium,Apply
+Recursion,What is the role of a base case in a recursive algorithm?,"A. To stop the recursion, B. To increase efficiency, C. To handle exceptional cases, D. To make the code shorter",A,Easy,Remember
+Search Algorithms,What is the time complexity of linear search in the worst case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Dynamic Programming,What is the purpose of memoization in dynamic programming?,"A. Storing results of expensive function calls and returning the cached result when the same inputs occur again, B. Repeating the same computation multiple times, C. Optimizing the function for better performance, D. Ignoring subproblems and solving the main problem directly",A,Medium,Apply
+Graph Algorithms,What is the time complexity of Prim's algorithm for finding a minimum spanning tree?,"A. O(V), B. O(E), C. O(V log V), D. O(E log V)",C,Moderate,Apply
+Hash Tables,What is the purpose of a perfect hash function in hashing?,"A. To avoid collisions, B. To generate random numbers, C. To compress data, D. To convert data into an index",A,Moderate,Apply
+Graph Representation,Which data structure is commonly used to represent a weighted graph?,"A. Array, B. Linked List, C. Matrix, D. Heap",C,Easy,Understand
+Recursion,What is the significance of the base case in recursion?,"A. To stop the recursion, B. To increase efficiency, C. To handle exceptional cases, D. To make the code shorter",A,Easy,Remember
+Search Algorithms,What is the time complexity of binary search in the average case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Moderate,Apply
+Dynamic Programming,What is the purpose of bottom-up dynamic programming?,"A. Starting from the top of the problem hierarchy, B. Starting from the bottom of the problem hierarchy, C. Optimizing the function for better performance, D. Ignoring subproblems and solving the main problem directly",B,Medium,Apply
+Graph Algorithms,What is the time complexity of breadth-first search (BFS) in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(log V)",C,Medium,Apply
+Hash Tables,What is the purpose of a perfect hash function in hashing?,"A. To avoid collisions, B. To generate random numbers, C. To compress data, D. To convert data into an index",A,Moderate,Apply
+Graph Representation,Which data structure is commonly used to represent a weighted graph?,"A. Array, B. Linked List, C. Matrix, D. Heap",C,Easy,Understand
+Recursion,What is the significance of the base case in recursion?,"A. To stop the recursion, B. To increase efficiency, C. To handle exceptional cases, D. To make the code shorter",A,Easy,Remember
+Search Algorithms,What is the time complexity of binary search in the average case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Moderate,Apply
+Dynamic Programming,What is the purpose of bottom-up dynamic programming?,"A. Starting from the top of the problem hierarchy, B. Starting from the bottom of the problem hierarchy, C. Optimizing the function for better performance, D. Ignoring subproblems and solving the main problem directly",B,Medium,Apply
+Graph Algorithms,What is the time complexity of breadth-first search (BFS) in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(log V)",C,Medium,Apply
+Hash Tables,What is the purpose of a perfect hash function in hashing?,"A. To avoid collisions, B. To generate random numbers, C. To compress data, D. To convert data into an index",A,Moderate,Apply
+Trees,What is the height of a complete binary tree with 15 nodes?,"A. 3, B. 4, C. 5, D. 6",B,Medium,Analyze
+Arrays,What is the time complexity of finding the smallest element in an unsorted array?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Easy,Remember
+Linked Lists,What is the advantage of a singly linked list over a doubly linked list?,"A. Easier traversal in reverse, B. Better memory utilization, C. Faster insertion and deletion, D. Constant space overhead",C,Moderate,Apply
+Queues,What is the purpose of a circular queue in computer science?,"A. To execute processes in order, B. To maintain elements in a specific order, C. To schedule tasks based on priority, D. To avoid race conditions",A,Medium,Apply
+Graphs,What is a connected graph in graph theory?,"A. A graph with no edges, B. A graph with exactly one vertex, C. A graph with all vertices connected by edges, D. A graph with disconnected components",C,Moderate,Analyze
+Hashing,What is the primary advantage of using separate chaining for collision resolution in hashing?,"A. Simplicity of implementation, B. Better memory utilization, C. Faster access time, D. Avoidance of collisions",A,Easy,Understand
+Heaps,What is the time complexity of deleting the minimum element from a binary min-heap?,"A. O(1), B. O(log n), C. O(n), D. O(n log n)",B,Medium,Apply
+Sorting,Which sorting algorithm has the best average-case time complexity?,"A. Bubble Sort, B. Merge Sort, C. Insertion Sort, D. Quick Sort",B,Medium,Analyze
+Recursion,What is the concept of tail recursion in recursive algorithms?,"A. A recursion with no base case, B. A recursion with only one recursive call at the end, C. A recursion with multiple recursive calls, D. A recursion that uses a loop instead of recursion",B,Easy,Understand
+Dynamic Programming,What is the main advantage of memoization in dynamic programming?,"A. Improved performance, B. Reduced space complexity, C. Simplicity of implementation, D. Avoidance of recursion",A,Medium,Apply
+Graph Algorithms,What is the purpose of Kosaraju's algorithm in graph theory?,"A. Finding strongly connected components, B. Detecting cycles, C. Computing shortest paths, D. Constructing a minimum spanning tree",A,Moderate,Apply
+Hash Tables,What is the purpose of double hashing in open addressing for collision resolution?,"A. Efficient memory utilization, B. Efficient search time, C. Handling collisions by checking the next slot, D. Avoiding collisions",D,Medium,Apply
+Graph Representation,Which representation of a graph is most suitable for a sparse graph?,"A. Adjacency matrix, B. Adjacency list, C. Incidence matrix, D. Hash table",B,Medium,Apply
+Sorting,What is the time complexity of the selection sort algorithm in the worst case?,"A. O(n), B. O(n log n), C. O(n^2), D. O(log n)",C,Easy,Understand
+Recursion,What is the role of a recursive helper function in a recursive algorithm?,"A. To make the code shorter, B. To avoid recursion, C. To handle exceptional cases, D. To perform the actual recursion with additional parameters",D,Medium,Apply
+Search Algorithms,What is the time complexity of binary search in the average case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Moderate,Apply
+Dynamic Programming,What is the purpose of tabulation in dynamic programming?,"A. Storing results of expensive function calls, B. Repeating the same computation multiple times, C. Optimizing the function for better performance, D. Ignoring subproblems and solving the main problem directly",A,Medium,Apply
+Graph Algorithms,What is the time complexity of depth-first search (DFS) in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(log V)",C,Medium,Apply
+Hash Tables,What is the purpose of linear probing in open addressing for collision resolution?,"A. Faster access time, B. Better memory utilization, C. Handling collisions by checking the next slot, D. Avoiding collisions",C,Moderate,Apply
+Graph Representation,Which representation of a graph is more space-efficient for a sparse graph?,"A. Adjacency matrix, B. Adjacency list, C. Incidence matrix, D. Hash table",B,Medium,Apply
+Sorting,What is the time complexity of the merge sort algorithm in the worst case?,"A. O(n), B. O(n log n), C. O(n^2), D. O(log n)",B,Medium,Analyze
+Recursion,What is the purpose of a recursive helper function?,"A. To make the code shorter, B. To avoid recursion, C. To handle exceptional cases, D. To perform the actual recursion with additional parameters",D,Easy,Remember
+Search Algorithms,Which data structure is typically used to implement a priority queue?,"A. Array, B. Linked List, C. Heap, D. Stack",C,Easy,Understand
+Dynamic Programming,What is the key idea behind the greedy algorithm paradigm?,"A. Solving subproblems and combining their solutions, B. Optimally solving the main problem, C. Dividing the problem into subproblems and solving them independently, D. Making the locally optimal choice at each stage",D,Medium,Apply
+Graph Algorithms,What is the time complexity of Dijkstra's algorithm for finding the shortest path in a weighted graph?,"A. O(V), B. O(E), C. O(V log V), D. O(E log V)",C,Moderate,Apply
+Hash Tables,What is the purpose of quadratic probing in open addressing for collision resolution?,"A. Faster access time, B. Better memory utilization, C. Handling collisions by checking the next slot, D. Avoiding collisions",C,Medium,Apply
+Graph Representation,Which representation of a graph is most suitable for a dense graph?,"A. Adjacency matrix, B. Adjacency list, C. Incidence matrix, D. Hash table",A,Moderate,Apply
+Sorting,What is the time complexity of the quicksort algorithm in the average case?,"A. O(n), B. O(n log n), C. O(n^2), D. O(log n)",B,Moderate,Apply
+Recursion,What is the significance of the base case in recursion?,"A. To stop the recursion, B. To increase efficiency, C. To handle exceptional cases, D. To make the code shorter",A,Easy,Remember
+Search Algorithms,What is the time complexity of linear search in the average case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Dynamic Programming,What is the purpose of memoization in dynamic programming?,"A. Storing results of expensive function calls and returning the cached result when the same inputs occur again, B. Repeating the same computation multiple times, C. Optimizing the function for better performance, D. Ignoring subproblems and solving the main problem directly",A,Medium,Apply
+Graph Algorithms,What is the time complexity of Prim's algorithm for finding a minimum spanning tree?,"A. O(V), B. O(E), C. O(V log V), D. O(E log V)",C,Moderate,Apply
+Hash Tables,What is the purpose of a perfect hash function in hashing?,"A. To avoid collisions, B. To generate random numbers, C. To compress data, D. To convert data into an index",A,Moderate,Apply
+Graph Representation,Which data structure is commonly used to represent a weighted graph?,"A. Array, B. Linked List, C. Matrix, D. Heap",C,Easy,Understand
+Trees,What is the height of a balanced binary search tree with 31 nodes?,"A. 4, B. 5, C. 6, D. 7",B,Medium,Analyze
+Arrays,What is the time complexity of merging two sorted arrays of lengths m and n into a new array?,"A. O(m), B. O(n), C. O(m + n), D. O(m * n)",C,Medium,Apply
+Linked Lists,What is the purpose of a dummy node in a linked list?,"A. To represent the last node, B. To improve memory utilization, C. To avoid NULL pointer errors, D. To simplify the traversal process",C,Easy,Understand
+Queues,What is the purpose of a priority queue in computer science?,"A. To execute processes in order, B. To maintain elements in a specific order, C. To schedule tasks based on priority, D. To avoid race conditions",C,Medium,Apply
+Graphs,What is a bipartite graph?,"A. A graph with two connected components, B. A graph with two vertices, C. A graph with two edges, D. A graph whose vertices can be divided into two disjoint sets",D,Medium,Analyze
+Hashing,What is the primary advantage of using separate chaining for collision resolution in hashing?,"A. Simplicity of implementation, B. Better memory utilization, C. Faster access time, D. Avoidance of collisions",A,Easy,Understand
+Heaps,What is the time complexity of inserting an element into a binary max-heap of height h?,"A. O(1), B. O(log h), C. O(h), D. O(h log h)",B,Moderate,Apply
+Recursion,What is the concept of tail recursion in recursive algorithms?,"A. A recursion with no base case, B. A recursion with only one recursive call at the end, C. A recursion with multiple recursive calls, D. A recursion that uses a loop instead of recursion",B,Easy,Understand
+Dynamic Programming,What is the main advantage of memoization in dynamic programming?,"A. Improved performance, B. Reduced space complexity, C. Simplicity of implementation, D. Avoidance of recursion",A,Medium,Apply
+Graph Algorithms,What is the purpose of Kosaraju's algorithm in graph theory?,"A. Finding strongly connected components, B. Detecting cycles, C. Computing shortest paths, D. Constructing a minimum spanning tree",A,Moderate,Apply
+Hash Tables,What is the purpose of double hashing in open addressing for collision resolution?,"A. Efficient memory utilization, B. Efficient search time, C. Handling collisions by checking the next slot, D. Avoiding collisions",D,Medium,Apply
+Graph Representation,Which representation of a graph is most suitable for a sparse graph?,"A. Adjacency matrix, B. Adjacency list, C. Incidence matrix, D. Hash table",B,Medium,Apply
+Sorting,What is the time complexity of the selection sort algorithm in the worst case?,"A. O(n), B. O(n log n), C. O(n^2), D. O(log n)",C,Easy,Understand
+Recursion,What is the role of a recursive helper function in a recursive algorithm?,"A. To make the code shorter, B. To avoid recursion, C. To handle exceptional cases, D. To perform the actual recursion with additional parameters",D,Medium,Apply
+Search Algorithms,What is the time complexity of binary search in the average case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Moderate,Apply
+Dynamic Programming,What is the purpose of tabulation in dynamic programming?,"A. Storing results of expensive function calls, B. Repeating the same computation multiple times, C. Optimizing the function for better performance, D. Ignoring subproblems and solving the main problem directly",A,Medium,Apply
+Graph Algorithms,What is the time complexity of depth-first search (DFS) in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(log V)",C,Medium,Apply
+Hash Tables,What is the purpose of linear probing in open addressing for collision resolution?,"A. Faster access time, B. Better memory utilization, C. Handling collisions by checking the next slot, D. Avoiding collisions",C,Moderate,Apply
+Graph Representation,Which representation of a graph is more space-efficient for a sparse graph?,"A. Adjacency matrix, B. Adjacency list, C. Incidence matrix, D. Hash table",B,Medium,Apply
+Sorting,What is the time complexity of the merge sort algorithm in the worst case?,"A. O(n), B. O(n log n), C. O(n^2), D. O(log n)",B,Medium,Analyze
+Recursion,What is the purpose of a recursive helper function?,"A. To make the code shorter, B. To avoid recursion, C. To handle exceptional cases, D. To perform the actual recursion with additional parameters",D,Easy,Remember
+Search Algorithms,Which data structure is typically used to implement a priority queue?,"A. Array, B. Linked List, C. Heap, D. Stack",C,Easy,Understand
+Dynamic Programming,What is the key idea behind the greedy algorithm paradigm?,"A. Solving subproblems and combining their solutions, B. Optimally solving the main problem, C. Dividing the problem into subproblems and solving them independently, D. Making the locally optimal choice at each stage",D,Medium,Apply
+Graph Algorithms,What is the time complexity of Dijkstra's algorithm for finding the shortest path in a weighted graph?,"A. O(V), B. O(E), C. O(V log V), D. O(E log V)",C,Moderate,Apply
+Hash Tables,What is the purpose of quadratic probing in open addressing for collision resolution?,"A. Faster access time, B. Better memory utilization, C. Handling collisions by checking the next slot, D. Avoiding collisions",C,Medium,Apply
+Graph Representation,Which representation of a graph is most suitable for a dense graph?,"A. Adjacency matrix, B. Adjacency list, C. Incidence matrix, D. Hash table",A,Moderate,Apply
+Sorting,What is the time complexity of the quicksort algorithm in the average case?,"A. O(n), B. O(n log n), C. O(n^2), D. O(log n)",B,Moderate,Apply
+Recursion,What is the significance of the base case in recursion?,"A. To stop the recursion, B. To increase efficiency, C. To handle exceptional cases, D. To make the code shorter",A,Easy,Remember
+Search Algorithms,What is the time complexity of linear search in the average case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Dynamic Programming,What is the purpose of memoization in dynamic programming?,"A. Storing results of expensive function calls and returning the cached result when the same inputs occur again, B. Repeating the same computation multiple times, C. Optimizing the function for better performance, D. Ignoring subproblems and solving the main problem directly",A,Medium,Apply
+Graph Algorithms,What is the time complexity of Prim's algorithm for finding a minimum spanning tree?,"A. O(V), B. O(E), C. O(V log V), D. O(E log V)",C,Moderate,Apply
+Hash Tables,What is the purpose of a perfect hash function in hashing?,"A. To avoid collisions, B. To generate random numbers, C. To compress data, D. To convert data into an index",A,Moderate,Apply
+Graph Representation,Which data structure is commonly used to represent a weighted graph?,"A. Array, B. Linked List, C. Matrix, D. Heap",C,Easy,Understand
+Arrays,What is the time complexity of finding the maximum element in an unsorted array?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Linked Lists,What is the purpose of a dummy node in a linked list?,"A. To confuse algorithms, B. To improve memory allocation, C. To simplify insertion and deletion, D. To mark the end of the list",C,Medium,Analyze
+Queues,Which data structure is typically used to implement a priority queue?,"A. Heap, B. Stack, C. Linked List, D. Queue",A,Medium,Apply
+Trees,What is the maximum number of leaf nodes in a binary tree with height h?,"A. 2^h, B. h+1, C. h, D. 2h",B,Medium,Analyze
+Graphs,What is the purpose of Kruskal's algorithm in graph theory?,"A. Shortest path, B. Minimum spanning tree, C. Topological sorting, D. Strongly connected components",B,Medium,Apply
+Sorting,Which sorting algorithm is known for its stability?,"A. QuickSort, B. MergeSort, C. BubbleSort, D. SelectionSort",B,Medium,Analyze
+Recursion,What is the significance of the base case in recursive algorithms?,"A. Termination condition, B. Optimization, C. Memoization, D. Dynamic programming",A,Easy,Remember
+Dynamic Programming,What is the optimal substructure property in dynamic programming?,"A. Subproblems must be independent, B. Optimal solution contains optimal solutions to subproblems, C. Each subproblem is solved only once, D. No overlapping subproblems",B,Medium,Analyze
+Hashing,What is the purpose of open addressing in collision resolution?,"A. Create additional hash functions, B. Separate chaining, C. Linear probing, D. Quadratic probing",C,Medium,Apply
+Arrays,What is the time complexity of reversing an array in-place?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Linked Lists,What is the main advantage of a doubly linked list over a singly linked list?,"A. Constant time access, B. Efficient insertion and deletion, C. Circular structure, D. No advantage",B,Easy,Remember
+Queues,Which operation checks if a queue is empty?,"A. Front, B. Rear, C. IsEmpty, D. Dequeue",C,Easy,Understand
+Trees,What is the height of a binary search tree with 15 nodes in the worst case?,"A. 4, B. 7, C. 14, D. 15",B,Medium,Analyze
+Graphs,What is the purpose of Dijkstra's algorithm in graph theory?,"A. Finding cycles, B. Shortest path, C. Topological sorting, D. Minimum spanning tree",B,Medium,Apply
+Sorting,What is the time complexity of the insertion sort algorithm in the average case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Recursion,What is the key idea behind the Tower of Hanoi problem solution using recursion?,"A. Divide and conquer, B. Greedy approach, C. Dynamic programming, D. Memoization",A,Medium,Apply
+Dynamic Programming,What is the purpose of memoization in dynamic programming?,"A. Reducing time complexity, B. Storing intermediate results, C. Topological sorting, D. Hashing",B,Medium,Apply
+Hashing,What is the time complexity of searching for an element in a hash table using open addressing?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Medium,Apply
+Arrays,What is the advantage of using a dynamic array over a static array?,"A. Fixed size, B. Variable size, C. Faster access time, D. Contiguous memory allocation",B,Medium,Analyze
+Linked Lists,What is the purpose of a tail pointer in a linked list?,"A. Marking the beginning, B. Pointing to the last node, C. Improving memory allocation, D. Enabling circular traversal",B,Easy,Understand
+Queues,What is the time complexity of enqueue operation in a circular queue with fixed size?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Medium,Apply
+Trees,What is the maximum number of nodes in a binary tree of height h?,"A. 2^h, B. h+1, C. h, D. 2h",A,Medium,Analyze
+Graphs,What is the purpose of Prim's algorithm in graph theory?,"A. Shortest path, B. Minimum spanning tree, C. Topological sorting, D. Strongly connected components",B,Medium,Apply
+Sorting,Which sorting algorithm has the best average-case time complexity?,"A. QuickSort, B. MergeSort, C. BubbleSort, D. SelectionSort",B,Medium,Analyze
+Recursion,What is the difference between tail recursion and non-tail recursion?,"A. Memory usage, B. Time complexity, C. Termination condition, D. Dynamic programming",A,Medium,Apply
+Dynamic Programming,What is the time complexity of the knapsack problem solution using dynamic programming?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",D,Medium,Apply
+Hashing,What is the purpose of a hash function in hash tables?,"A. Handle collisions, B. Sort elements, C. Perform arithmetic operations, D. Create random access",A,Medium,Analyze
+Arrays,What is the space complexity of the bubble sort algorithm?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Easy,Understand
+Linked Lists,What is the time complexity of finding the middle element in a singly linked list?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Queues,Which data structure is typically used to implement a double-ended queue?,"A. Stack, B. Linked List, C. Array, D. Queue",B,Easy,Understand
+Trees,What is the purpose of a binary search tree?,"A. Store elements in sorted order, B. Enable random access, C. Support parallel processing, D. Ensure constant time access",A,Medium,Apply
+Graphs,What is the time complexity of depth-first search in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(V * E)",C,Medium,Apply
+Sorting,What is the key idea behind the quicksort algorithm?,"A. Divide and conquer, B. Greedy approach, C. Dynamic programming, D. Memoization",A,Medium,Analyze
+Recursion,What is the time complexity of the factorial function when implemented using recursion?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Dynamic Programming,What is the optimal substructure property in dynamic programming?,"A. Subproblems must be independent, B. Optimal solution contains optimal solutions to subproblems, C. Each subproblem is solved only once, D. No overlapping subproblems",B,Medium,Analyze
+Hashing,What is the purpose of chaining in collision resolution?,"A. Create additional hash functions, B. Separate chaining, C. Linear probing, D. Quadratic probing",B,Medium,Apply
+Arrays,What is the time complexity of finding the kth smallest element in a sorted matrix of size n x n?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Linked Lists,What is the main disadvantage of an array-based implementation of a list?,"A. Variable size, B. Inefficient memory usage, C. Limited access, D. Sequential storage",C,Medium,Analyze
+Queues,Which operation checks if a stack is empty?,"A. Push, B. Pop, C. IsEmpty, D. Top",C,Easy,Remember
+Trees,What is the time complexity of searching for an element in a binary search tree with n nodes in the worst case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Medium,Apply
+Graphs,What is the purpose of breadth-first search in graph theory?,"A. Shortest path, B. Minimum spanning tree, C. Topological sorting, D. Strongly connected components",A,Medium,Analyze
+Sorting,Which sorting algorithm is known for its stability?,"A. QuickSort, B. MergeSort, C. BubbleSort, D. SelectionSort",B,Medium,Apply
+Recursion,What is the key idea behind the Tower of Hanoi problem solution using recursion?,"A. Divide and conquer, B. Greedy approach, C. Dynamic programming, D. Memoization",A,Medium,Apply
+Dynamic Programming,What is the purpose of memoization in dynamic programming?,"A. Reducing time complexity, B. Storing intermediate results, C. Topological sorting, D. Hashing",B,Medium,Apply
+Hashing,What is the time complexity of searching for an element in a hash table using open addressing?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Medium,Apply
+Arrays,What is the advantage of using a dynamic array over a static array?,"A. Fixed size, B. Variable size, C. Faster access time, D. Contiguous memory allocation",B,Medium,Analyze
+Linked Lists,What is the purpose of a tail pointer in a linked list?,"A. Marking the beginning, B. Pointing to the last node, C. Improving memory allocation, D. Enabling circular traversal",B,Easy,Understand
+Queues,What is the time complexity of enqueue operation in a circular queue with fixed size?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Medium,Apply
+Trees,What is the maximum number of nodes in a binary tree of height h?,"A. 2^h, B. h+1, C. h, D. 2h",A,Medium,Analyze
+Graphs,What is the purpose of Prim's algorithm in graph theory?,"A. Shortest path, B. Minimum spanning tree, C. Topological sorting, D. Strongly connected components",B,Medium,Apply
+Sorting,Which sorting algorithm has the best average-case time complexity?,"A. QuickSort, B. MergeSort, C. BubbleSort, D. SelectionSort",B,Medium,Analyze
+Recursion,What is the difference between tail recursion and non-tail recursion?,"A. Memory usage, B. Time complexity, C. Termination condition, D. Dynamic programming",A,Medium,Apply
+Dynamic Programming,What is the time complexity of the knapsack problem solution using dynamic programming?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",D,Medium,Apply
+Hashing,What is the purpose of a hash function in hash tables?,"A. Handle collisions, B. Sort elements, C. Perform arithmetic operations, D. Create random access",A,Medium,Analyze
+Arrays,What is the space complexity of the bubble sort algorithm?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Easy,Understand
+Linked Lists,What is the time complexity of finding the middle element in a singly linked list?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Queues,Which data structure is typically used to implement a double-ended queue?,"A. Stack, B. Linked List, C. Array, D. Queue",B,Easy,Understand
+Trees,What is the purpose of a binary search tree?,"A. Store elements in sorted order, B. Enable random access, C. Support parallel processing, D. Ensure constant time access",A,Medium,Apply
+Graphs,What is the time complexity of depth-first search in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(V * E)",C,Medium,Apply
+Sorting,What is the key idea behind the quicksort algorithm?,"A. Divide and conquer, B. Greedy approach, C. Dynamic programming, D. Memoization",A,Medium,Analyze
+Recursion,What is the time complexity of the factorial function when implemented using recursion?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Dynamic Programming,What is the optimal substructure property in dynamic programming?,"A. Subproblems must be independent, B. Optimal solution contains optimal solutions to subproblems, C. Each subproblem is solved only once, D. No overlapping subproblems",B,Medium,Analyze
+Hashing,What is the purpose of chaining in collision resolution?,"A. Create additional hash functions, B. Separate chaining, C. Linear probing, D. Quadratic probing",B,Medium,Apply
+Arrays,What is the time complexity of finding the kth smallest element in a sorted matrix of size n x n?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Linked Lists,What is the main disadvantage of an array-based implementation of a list?,"A. Variable size, B. Inefficient memory usage, C. Limited access, D. Sequential storage",C,Medium,Analyze
+Queues,Which operation checks if a stack is empty?,"A. Push, B. Pop, C. IsEmpty, D. Top",C,Easy,Remember
+Trees,What is the time complexity of searching for an element in a binary search tree with n nodes in the worst case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Medium,Apply
+Graphs,What is the purpose of breadth-first search in graph theory?,"A. Shortest path, B. Minimum spanning tree, C. Topological sorting, D. Strongly connected components",A,Medium,Analyze
+Sorting,Which sorting algorithm is known for its stability?,"A. QuickSort, B. MergeSort, C. BubbleSort, D. SelectionSort",B,Medium,Apply
+Recursion,What is the key idea behind the Tower of Hanoi problem solution using recursion?,"A. Divide and conquer, B. Greedy approach, C. Dynamic programming, D. Memoization",A,Medium,Apply
+Dynamic Programming,What is the purpose of memoization in dynamic programming?,"A. Reducing time complexity, B. Storing intermediate results, C. Topological sorting, D. Hashing",B,Medium,Apply
+Hashing,What is the time complexity of searching for an element in a hash table using open addressing?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Medium,Apply
+Arrays,What is the advantage of using a dynamic array over a static array?,"A. Fixed size, B. Variable size, C. Faster access time, D. Contiguous memory allocation",B,Medium,Analyze
+Linked Lists,What is the purpose of a tail pointer in a linked list?,"A. Marking the beginning, B. Pointing to the last node, C. Improving memory allocation, D. Enabling circular traversal",B,Easy,Understand
+Queues,What is the time complexity of enqueue operation in a circular queue with fixed size?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Medium,Apply
+Trees,What is the maximum number of nodes in a binary tree of height h?,"A. 2^h, B. h+1, C. h, D. 2h",A,Medium,Analyze
+Graphs,What is the purpose of Prim's algorithm in graph theory?,"A. Shortest path, B. Minimum spanning tree, C. Topological sorting, D. Strongly connected components",B,Medium,Apply
+Sorting,Which sorting algorithm has the best average-case time complexity?,"A. QuickSort, B. MergeSort, C. BubbleSort, D. SelectionSort",B,Medium,Analyze
+Recursion,What is the difference between tail recursion and non-tail recursion?,"A. Memory usage, B. Time complexity, C. Termination condition, D. Dynamic programming",A,Medium,Apply
+Dynamic Programming,What is the time complexity of the knapsack problem solution using dynamic programming?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",D,Medium,Apply
+Hashing,What is the purpose of a hash function in hash tables?,"A. Handle collisions, B. Sort elements, C. Perform arithmetic operations, D. Create random access",A,Medium,Analyze
+Arrays,What is the space complexity of the bubble sort algorithm?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Easy,Understand
+Linked Lists,What is the time complexity of finding the middle element in a singly linked list?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Queues,Which data structure is typically used to implement a double-ended queue?,"A. Stack, B. Linked List, C. Array, D. Queue",B,Easy,Understand
+Trees,What is the purpose of a binary search tree?,"A. Store elements in sorted order, B. Enable random access, C. Support parallel processing, D. Ensure constant time access",A,Medium,Apply
+Graphs,What is the time complexity of depth-first search in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(V * E)",C,Medium,Apply
+Sorting,What is the key idea behind the quicksort algorithm?,"A. Divide and conquer, B. Greedy approach, C. Dynamic programming, D. Memoization",A,Medium,Analyze
+Recursion,What is the time complexity of the factorial function when implemented using recursion?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Dynamic Programming,What is the optimal substructure property in dynamic programming?,"A. Subproblems must be independent, B. Optimal solution contains optimal solutions to subproblems, C. Each subproblem is solved only once, D. No overlapping subproblems",B,Medium,Analyze
+Hashing,What is the purpose of chaining in collision resolution?,"A. Create additional hash functions, B. Separate chaining, C. Linear probing, D. Quadratic probing",B,Medium,Apply
+Arrays,What is the time complexity of finding the kth smallest element in a sorted matrix of size n x n?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Linked Lists,What is the main disadvantage of an array-based implementation of a list?,"A. Variable size, B. Inefficient memory usage, C. Limited access, D. Sequential storage",C,Medium,Analyze
+Queues,Which operation checks if a stack is empty?,"A. Push, B. Pop, C. IsEmpty, D. Top",C,Easy,Remember
+Trees,What is the time complexity of searching for an element in a binary search tree with n nodes in the worst case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Medium,Apply
+Graphs,What is the purpose of breadth-first search in graph theory?,"A. Shortest path, B. Minimum spanning tree, C. Topological sorting, D. Strongly connected components",A,Medium,Analyze
+Sorting,Which sorting algorithm is known for its stability?,"A. QuickSort, B. MergeSort, C. BubbleSort, D. SelectionSort",B,Medium,Apply
+Recursion,What is the key idea behind the Tower of Hanoi problem solution using recursion?,"A. Divide and conquer, B. Greedy approach, C. Dynamic programming, D. Memoization",A,Medium,Apply
+Dynamic Programming,What is the purpose of memoization in dynamic programming?,"A. Reducing time complexity, B. Storing intermediate results, C. Topological sorting, D. Hashing",B,Medium,Apply
+Hashing,What is the time complexity of searching for an element in a hash table using open addressing?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Medium,Apply
+Arrays,What is the advantage of using a dynamic array over a static array?,"A. Fixed size, B. Variable size, C. Faster access time, D. Contiguous memory allocation",B,Medium,Analyze
+Linked Lists,What is the purpose of a tail pointer in a linked list?,"A. Marking the beginning, B. Pointing to the last node, C. Improving memory allocation, D. Enabling circular traversal",B,Easy,Understand
+Queues,What is the time complexity of enqueue operation in a circular queue with fixed size?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Medium,Apply
+Trees,What is the maximum number of nodes in a binary tree of height h?,"A. 2^h, B. h+1, C. h, D. 2h",A,Medium,Analyze
+Graphs,What is the purpose of Prim's algorithm in graph theory?,"A. Shortest path, B. Minimum spanning tree, C. Topological sorting, D. Strongly connected components",B,Medium,Apply
+Sorting,Which sorting algorithm has the best average-case time complexity?,"A. QuickSort, B. MergeSort, C. BubbleSort, D. SelectionSort",B,Medium,Analyze
+Recursion,What is the difference between tail recursion and non-tail recursion?,"A. Memory usage, B. Time complexity, C. Termination condition, D. Dynamic programming",A,Medium,Apply
+Dynamic Programming,What is the time complexity of the knapsack problem solution using dynamic programming?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",D,Medium,Apply
+Hashing,What is the purpose of a hash function in hash tables?,"A. Handle collisions, B. Sort elements, C. Perform arithmetic operations, D. Create random access",A,Medium,Analyze
+Arrays,What is the space complexity of the bubble sort algorithm?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Easy,Understand
+Linked Lists,What is the time complexity of finding the middle element in a singly linked list?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Queues,Which data structure is typically used to implement a double-ended queue?,"A. Stack, B. Linked List, C. Array, D. Queue",B,Easy,Understand
+Trees,What is the purpose of a binary search tree?,"A. Store elements in sorted order, B. Enable random access, C. Support parallel processing, D. Ensure constant time access",A,Medium,Apply
+Graphs,What is the time complexity of depth-first search in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(V * E)",C,Medium,Apply
+Sorting,What is the key idea behind the quicksort algorithm?,"A. Divide and conquer, B. Greedy approach, C. Dynamic programming, D. Memoization",A,Medium,Analyze
+Recursion,What is the time complexity of the factorial function when implemented using recursion?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Dynamic Programming,What is the optimal substructure property in dynamic programming?,"A. Subproblems must be independent, B. Optimal solution contains optimal solutions to subproblems, C. Each subproblem is solved only once, D. No overlapping subproblems",B,Medium,Analyze
+Hashing,What is the purpose of chaining in collision resolution?,"A. Create additional hash functions, B. Separate chaining, C. Linear probing, D. Quadratic probing",B,Medium,Apply
+Arrays,What is the time complexity of finding the kth smallest element in a sorted matrix of size n x n?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Linked Lists,What is the main disadvantage of an array-based implementation of a list?,"A. Variable size, B. Inefficient memory usage, C. Limited access, D. Sequential storage",C,Medium,Analyze
+Queues,Which operation checks if a stack is empty?,"A. Push, B. Pop, C. IsEmpty, D. Top",C,Easy,Remember
+Trees,What is the time complexity of searching for an element in a binary search tree with n nodes in the worst case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Medium,Apply
+Graphs,What is the purpose of breadth-first search in graph theory?,"A. Shortest path, B. Minimum spanning tree, C. Topological sorting, D. Strongly connected components",A,Medium,Analyze
+Sorting,Which sorting algorithm is known for its stability?,"A. QuickSort, B. MergeSort, C. BubbleSort, D. SelectionSort",B,Medium,Apply
+Recursion,What is the key idea behind the Tower of Hanoi problem solution using recursion?,"A. Divide and conquer, B. Greedy approach, C. Dynamic programming, D. Memoization",A,Medium,Apply
+Dynamic Programming,What is the purpose of memoization in dynamic programming?,"A. Reducing time complexity, B. Storing intermediate results, C. Topological sorting, D. Hashing",B,Medium,Apply
+Hashing,What is the time complexity of searching for an element in a hash table using open addressing?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Medium,Apply
+Arrays,What is the advantage of using a dynamic array over a static array?,"A. Fixed size, B. Variable size, C. Faster access time, D. Contiguous memory allocation",B,Medium,Analyze
+Linked Lists,What is the purpose of a tail pointer in a linked list?,"A. Marking the beginning, B. Pointing to the last node, C. Improving memory allocation, D. Enabling circular traversal",B,Easy,Understand
+Queues,What is the time complexity of enqueue operation in a circular queue with fixed size?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Medium,Apply
+Trees,What is the maximum number of nodes in a binary tree of height h?,"A. 2^h, B. h+1, C. h, D. 2h",A,Medium,Analyze
+Graphs,What is the purpose of Prim's algorithm in graph theory?,"A. Shortest path, B. Minimum spanning tree, C. Topological sorting, D. Strongly connected components",B,Medium,Apply
+Sorting,Which sorting algorithm has the best average-case time complexity?,"A. QuickSort, B. MergeSort, C. BubbleSort, D. SelectionSort",B,Medium,Analyze
+Recursion,What is the difference between tail recursion and non-tail recursion?,"A. Memory usage, B. Time complexity, C. Termination condition, D. Dynamic programming",A,Medium,Apply
+Dynamic Programming,What is the time complexity of the knapsack problem solution using dynamic programming?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",D,Medium,Apply
+Hashing,What is the purpose of a hash function in hash tables?,"A. Handle collisions, B. Sort elements, C. Perform arithmetic operations, D. Create random access",A,Medium,Analyze
+Arrays,What is the space complexity of the bubble sort algorithm?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Easy,Understand
+Linked Lists,What is the time complexity of finding the middle element in a singly linked list?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Queues,Which data structure is typically used to implement a double-ended queue?,"A. Stack, B. Linked List, C. Array, D. Queue",B,Easy,Understand
+Trees,What is the purpose of a binary search tree?,"A. Store elements in sorted order, B. Enable random access, C. Support parallel processing, D. Ensure constant time access",A,Medium,Apply
+Graphs,What is the time complexity of depth-first search in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(V * E)",C,Medium,Apply
+Sorting,What is the key idea behind the quicksort algorithm?,"A. Divide and conquer, B. Greedy approach, C. Dynamic programming, D. Memoization",A,Medium,Analyze
+Recursion,What is the time complexity of the factorial function when implemented using recursion?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Dynamic Programming,What is the optimal substructure property in dynamic programming?,"A. Subproblems must be independent, B. Optimal solution contains optimal solutions to subproblems, C. Each subproblem is solved only once, D. No overlapping subproblems",B,Medium,Analyze
+Hashing,What is the purpose of chaining in collision resolution?,"A. Create additional hash functions, B. Separate chaining, C. Linear probing, D. Quadratic probing",B,Medium,Apply
+Arrays,What is the time complexity of finding the kth smallest element in a sorted matrix of size n x n?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Linked Lists,What is the main disadvantage of an array-based implementation of a list?,"A. Variable size, B. Inefficient memory usage, C. Limited access, D. Sequential storage",C,Medium,Analyze
+Queues,Which operation checks if a stack is empty?,"A. Push, B. Pop, C. IsEmpty, D. Top",C,Easy,Remember
+Trees,What is the time complexity of searching for an element in a binary search tree with n nodes in the worst case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Medium,Apply
+Graphs,What is the purpose of breadth-first search in graph theory?,"A. Shortest path, B. Minimum spanning tree, C. Topological sorting, D. Strongly connected components",A,Medium,Analyze
+Sorting,Which sorting algorithm is known for its stability?,"A. QuickSort, B. MergeSort, C. BubbleSort, D. SelectionSort",B,Medium,Apply
+Recursion,What is the key idea behind the Tower of Hanoi problem solution using recursion?,"A. Divide and conquer, B. Greedy approach, C. Dynamic programming, D. Memoization",A,Medium,Apply
+Dynamic Programming,What is the purpose of memoization in dynamic programming?,"A. Reducing time complexity, B. Storing intermediate results, C. Topological sorting, D. Hashing",B,Medium,Apply
+Hashing,What is the time complexity of searching for an element in a hash table using open addressing?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Medium,Apply
+Arrays,What is the advantage of using a dynamic array over a static array?,"A. Fixed size, B. Variable size, C. Faster access time, D. Contiguous memory allocation",B,Medium,Analyze
+Linked Lists,What is the purpose of a tail pointer in a linked list?,"A. Marking the beginning, B. Pointing to the last node, C. Improving memory allocation, D. Enabling circular traversal",B,Easy,Understand
+Queues,What is the time complexity of enqueue operation in a circular queue with fixed size?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Medium,Apply
+Trees,What is the maximum number of nodes in a binary tree of height h?,"A. 2^h, B. h+1, C. h, D. 2h",A,Medium,Analyze
+Graphs,What is the purpose of Prim's algorithm in graph theory?,"A. Shortest path, B. Minimum spanning tree, C. Topological sorting, D. Strongly connected components",B,Medium,Apply
+Sorting,Which sorting algorithm has the best average-case time complexity?,"A. QuickSort, B. MergeSort, C. BubbleSort, D. SelectionSort",B,Medium,Analyze
+Recursion,What is the difference between tail recursion and non-tail recursion?,"A. Memory usage, B. Time complexity, C. Termination condition, D. Dynamic programming",A,Medium,Apply
+Dynamic Programming,What is the time complexity of the knapsack problem solution using dynamic programming?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",D,Medium,Apply
+Hashing,What is the purpose of a hash function in hash tables?,"A. Handle collisions, B. Sort elements, C. Perform arithmetic operations, D. Create random access",A,Medium,Analyze
+Arrays,What is the space complexity of the bubble sort algorithm?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Easy,Understand
+Linked Lists,What is the time complexity of finding the middle element in a singly linked list?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Queues,Which data structure is typically used to implement a double-ended queue?,"A. Stack, B. Linked List, C. Array, D. Queue",B,Easy,Understand
+Trees,What is the purpose of a binary search tree?,"A. Store elements in sorted order, B. Enable random access, C. Support parallel processing, D. Ensure constant time access",A,Medium,Apply
+Graphs,What is the time complexity of depth-first search in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(V * E)",C,Medium,Apply
+Sorting,What is the key idea behind the quicksort algorithm?,"A. Divide and conquer, B. Greedy approach, C. Dynamic programming, D. Memoization",A,Medium,Analyze
+Recursion,What is the time complexity of the factorial function when implemented using recursion?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Dynamic Programming,What is the optimal substructure property in dynamic programming?,"A. Subproblems must be independent, B. Optimal solution contains optimal solutions to subproblems, C. Each subproblem is solved only once, D. No overlapping subproblems",B,Medium,Analyze
+Hashing,What is the purpose of chaining in collision resolution?,"A. Create additional hash functions, B. Separate chaining, C. Linear probing, D. Quadratic probing",B,Medium,Apply
+Arrays,What is the time complexity of finding the kth smallest element in a sorted matrix of size n x n?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Linked Lists,What is the main disadvantage of an array-based implementation of a list?,"A. Variable size, B. Inefficient memory usage, C. Limited access, D. Sequential storage",C,Medium,Analyze
+Queues,Which operation checks if a stack is empty?,"A. Push, B. Pop, C. IsEmpty, D. Top",C,Easy,Remember
+Trees,What is the time complexity of searching for an element in a binary search tree with n nodes in the worst case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Medium,Apply
+Graphs,What is the purpose of breadth-first search in graph theory?,"A. Shortest path, B. Minimum spanning tree, C. Topological sorting, D. Strongly connected components",A,Medium,Analyze
+Sorting,Which sorting algorithm is known for its stability?,"A. QuickSort, B. MergeSort, C. BubbleSort, D. SelectionSort",B,Medium,Apply
+Recursion,What is the key idea behind the Tower of Hanoi problem solution using recursion?,"A. Divide and conquer, B. Greedy approach, C. Dynamic programming, D. Memoization",A,Medium,Apply
+Dynamic Programming,What is the purpose of memoization in dynamic programming?,"A. Reducing time complexity, B. Storing intermediate results, C. Topological sorting, D. Hashing",B,Medium,Apply
+Hashing,What is the time complexity of searching for an element in a hash table using open addressing?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Medium,Apply
+Arrays,What is the advantage of using a dynamic array over a static array?,"A. Fixed size, B. Variable size, C. Faster access time, D. Contiguous memory allocation",B,Medium,Analyze
+Linked Lists,What is the purpose of a tail pointer in a linked list?,"A. Marking the beginning, B. Pointing to the last node, C. Improving memory allocation, D. Enabling circular traversal",B,Easy,Understand
+Queues,What is the time complexity of enqueue operation in a circular queue with fixed size?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Medium,Apply
+Trees,What is the maximum number of nodes in a binary tree of height h?,"A. 2^h, B. h+1, C. h, D. 2h",A,Medium,Analyze
+Graphs,What is the purpose of Prim's algorithm in graph theory?,"A. Shortest path, B. Minimum spanning tree, C. Topological sorting, D. Strongly connected components",B,Medium,Apply
+Sorting,Which sorting algorithm has the best average-case time complexity?,"A. QuickSort, B. MergeSort, C. BubbleSort, D. SelectionSort",B,Medium,Analyze
+Recursion,What is the difference between tail recursion and non-tail recursion?,"A. Memory usage, B. Time complexity, C. Termination condition, D. Dynamic programming",A,Medium,Apply
+Dynamic Programming,What is the time complexity of the knapsack problem solution using dynamic programming?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",D,Medium,Apply
+Hashing,What is the purpose of a hash function in hash tables?,"A. Handle collisions, B. Sort elements, C. Perform arithmetic operations, D. Create random access",A,Medium,Analyze
+Arrays,What is the space complexity of the bubble sort algorithm?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Easy,Understand
+Linked Lists,What is the time complexity of finding the middle element in a singly linked list?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Queues,Which data structure is typically used to implement a double-ended queue?,"A. Stack, B. Linked List, C. Array, D. Queue",B,Easy,Understand
+Trees,What is the purpose of a binary search tree?,"A. Store elements in sorted order, B. Enable random access, C. Support parallel processing, D. Ensure constant time access",A,Medium,Apply
+Graphs,What is the time complexity of depth-first search in a graph with V vertices and E edges?,"A. O(V), B. O(E), C. O(V + E), D. O(V * E)",C,Medium,Apply
+Sorting,What is the key idea behind the quicksort algorithm?,"A. Divide and conquer, B. Greedy approach, C. Dynamic programming, D. Memoization",A,Medium,Analyze
+Recursion,What is the time complexity of the factorial function when implemented using recursion?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Dynamic Programming,What is the optimal substructure property in dynamic programming?,"A. Subproblems must be independent, B. Optimal solution contains optimal solutions to subproblems, C. Each subproblem is solved only once, D. No overlapping subproblems",B,Medium,Analyze
+Hashing,What is the purpose of chaining in collision resolution?,"A. Create additional hash functions, B. Separate chaining, C. Linear probing, D. Quadratic probing",B,Medium,Apply
+Arrays,What is the time complexity of finding the kth smallest element in a sorted matrix of size n x n?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",C,Medium,Apply
+Linked Lists,What is the main disadvantage of an array-based implementation of a list?,"A. Variable size, B. Inefficient memory usage, C. Limited access, D. Sequential storage",C,Medium,Analyze
+Queues,Which operation checks if a stack is empty?,"A. Push, B. Pop, C. IsEmpty, D. Top",C,Easy,Remember
+Trees,What is the time complexity of searching for an element in a binary search tree with n nodes in the worst case?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",B,Medium,Apply
+Graphs,What is the purpose of breadth-first search in graph theory?,"A. Shortest path, B. Minimum spanning tree, C. Topological sorting, D. Strongly connected components",A,Medium,Analyze
+Sorting,Which sorting algorithm is known for its stability?,"A. QuickSort, B. MergeSort, C. BubbleSort, D. SelectionSort",B,Medium,Apply
+Recursion,What is the key idea behind the Tower of Hanoi problem solution using recursion?,"A. Divide and conquer, B. Greedy approach, C. Dynamic programming, D. Memoization",A,Medium,Apply
+Dynamic Programming,What is the purpose of memoization in dynamic programming?,"A. Reducing time complexity, B. Storing intermediate results, C. Topological sorting, D. Hashing",B,Medium,Apply
+Hashing,What is the time complexity of searching for an element in a hash table using open addressing?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Medium,Apply
+Arrays,What is the advantage of using a dynamic array over a static array?,"A. Fixed size, B. Variable size, C. Faster access time, D. Contiguous memory allocation",B,Medium,Analyze
+Linked Lists,What is the purpose of a tail pointer in a linked list?,"A. Marking the beginning, B. Pointing to the last node, C. Improving memory allocation, D. Enabling circular traversal",B,Easy,Understand
+Queues,What is the time complexity of enqueue operation in a circular queue with fixed size?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",A,Medium,Apply
+Trees,What is the maximum number of nodes in a binary tree of height h?,"A. 2^h, B. h+1, C. h, D. 2h",A,Medium,Analyze
+Graphs,What is the purpose of Prim's algorithm in graph theory?,"A. Shortest path, B. Minimum spanning tree, C. Topological sorting, D. Strongly connected components",B,Medium,Apply
+Sorting,Which sorting algorithm has the best average-case time complexity?,"A. QuickSort, B. MergeSort, C. BubbleSort, D. SelectionSort",B,Medium,Analyze
+Recursion,What is the difference between tail recursion and non-tail recursion?,"A. Memory usage, B. Time complexity, C. Termination condition, D. Dynamic programming",A,Medium,Apply
+Dynamic Programming,What is the time complexity of the knapsack problem solution using dynamic programming?,"A. O(1), B. O(log n), C. O(n), D. O(n^2)",D,Medium,Apply
+Topic,Question,Options1;Options2;Options3;Options4,Answer,Difficulty,Bloom's Taxonomy Level
+Array,Find the missing number in an array of consecutive integers,A. Use XOR;B. Sort the array and find the gap;C. Sum formula;D. Iterate and check for gaps,B,Medium,Analyze
+Linked List,Implement a function to check if a linked list is a palindrome,A. Use a stack;B. Reverse and compare;C. Recursive approach;D. Convert to array and compare,A,Hard,Create
+Queues,Implement a circular queue with fixed size,A. Use an array and two pointers;B. Circular linked list;C. Dynamically resize;D. Use a doubly-ended queue with limits,A,Medium,Apply
+Trees,Write a function to check if two binary trees are identical,A. Recursive comparison;B. Level-order traversal;C. Check in-order traversal;D. Use a hash function,A,Medium,Analyze
+Graphs,Implement depth-first search (DFS) for a graph,A. Recursive approach;B. Iterative using stack;C. Priority queue;D. Breadth-first search (BFS),A,Medium,Apply
+Sorting,Implement the merge sort algorithm,A. Divide and conquer;B. Use a hash table;C. Quick sort;D. Bubble sort,A,Hard,Create
+Searching,Find the first and last occurrence of a target element in a sorted array,A. Binary search;B. Linear search;C. Hash table;D. Exponential search,A,Medium,Analyze
+Recursion,Write a recursive function to calculate the factorial of a number,A. Use dynamic programming;B. Iterative approach;C. Divide and conquer;D. Tail recursion,C,Medium,Apply
+Dynamic Programming,Implement the Knapsack problem using dynamic programming,A. Recursive approach;B. Greedy algorithm;C. Memoization;D. Bottom-up approach,D,Hard,Analyze
+Bit Manipulation,Count the number of set bits (1s) in an integer,A. Shift and count;B. Use a lookup table;C. Recursive approach;D. Masking and counting,C,Medium,Apply
+Hashing,Design a hash map from scratch,A. Separate chaining;B. Linear probing;C. Quadratic probing;D. Open addressing with linked lists,A,Hard,Create
+Heap,Implement a max heap and perform heap sort,A. Use an array representation;B. Binary search tree;C. Fibonacci heap;D. AVL tree,A,Hard,Analyze
+Strings,Write a function to check if two strings are anagrams,A. Sort and compare;B. Use a hash table;C. Check character counts;D. Compare sorted character arrays,B,Medium,Apply
+Greedy Algorithms,Implement Dijkstra's algorithm for finding the shortest path,A. Priority queue;B. Breadth-first search (BFS);C. Bellman-Ford algorithm;D. Depth-first search (DFS),A,Hard,Create
+Backtracking,Solve the N-Queens problem using backtracking,A. Recursive placement;B. Randomized backtracking;C. Simulated annealing;D. Use a stack,C,Hard,Analyze
+Array,Find the sum of all subarrays of an array,A. Brute force iteration;B. Dynamic programming;C. Prefix sum array;D. Divide and conquer,C,Medium,Analyze
+Linked List,Write a function to merge two sorted linked lists,A. Iterative merging;B. Recursive approach;C. In-place merging;D. Use a priority queue,A,Medium,Apply
+Stacks,Implement a function to check for balanced parentheses in an expression,A. Use a stack;B. Regular expressions;C. Recursive parsing;D. Priority queue,A,Easy,Remember
+Queues,Design and implement a circular queue using arrays,A. Single pointer;B. Dynamic resizing;C. Front and rear pointers;D. Priority queue,B,Medium,Apply
+Trees,Find the lowest common ancestor (LCA) of two nodes in a binary tree,A. Recursive approach;B. Parent pointer;C. Breadth-first search (BFS);D. Dynamic programming,A,Hard,Create
+Graphs,Write a function to detect a cycle in a directed graph,A. Depth-first search (DFS);B. Breadth-first search (BFS);C. Floyd's algorithm;D. Union-find algorithm,A,Medium,Analyze
+Sorting,Implement the quicksort algorithm,A. Divide and conquer;B. Merge sort;C. Radix sort;D. Bubble sort,A,Medium,Apply
+Searching,Perform interpolation search on a sorted array,A. Binary search;B. Linear search;C. Exponential search;D. Hashing,C,Hard,Analyze
+Recursion,Create a recursive function to generate all permutations of a string,A. Use dynamic programming;B. Iterative approach;C. Backtracking;D. Hashing,C,Hard,Create
+Dynamic Programming,Solve the Longest Common Subsequence (LCS) problem using dynamic programming,A. Greedy algorithm;B. Recursive approach;C. Sliding window;D. Bottom-up approach,D,Hard,Analyze
+Bit Manipulation,Swap two numbers without using a temporary variable,A. XOR operation;B. Use a third variable;C. Arithmetic operations;D. Hashing,A,Easy,Apply
+Hashing,Implement a hash table with collision resolution using chaining,A. Linear probing;B. Quadratic probing;C. Double hashing;D. Separate chaining,D,Hard,Create
+Heap,Design and implement a min heap and perform heap operations,A. Priority queue;B. Binary search tree;C. Fibonacci heap;D. Sift-down operation,A,Hard,Analyze
+Strings,Write a function to reverse words in a given string,A. Use a stack;B. In-place swapping;C. Recursive approach;D. Regular expressions,B,Medium,Apply
+Greedy Algorithms,Implement Kruskal's algorithm for finding the minimum spanning tree,A. Depth-first search (DFS);B. Dijkstra's algorithm;C. Prim's algorithm;D. Breadth-first search (BFS),A,Hard,Create
+Backtracking,Solve the Sudoku puzzle using backtracking,A. Recursive approach;B. Iterative solving;C. Dancing Links algorithm;D. Constraint propagation,C,Hard,Analyze
+Array,"Find the ""Kth"" largest element in an array,A. QuickSelect algorithm;B. Heap-based approach;C. Sorting and indexing;D. Binary search,C,Medium,Apply",A. QuickSelect algorithm;B. Heap-based approach;C. Sorting and indexing;D. Binary search,C,Medium,Apply
+Linked List,Write a function to remove duplicates from an unsorted linked list,A. Use a hash set;B. Sort and remove duplicates;C. Two-pointer approach;D. Recursive hashing,A,Medium,Apply
+Stacks,Implement a function to evaluate a postfix expression,A. Use a stack;B. Recursive parsing;C. Infix to postfix conversion;D. Dynamic programming,A,Medium,Apply
+Queues,Design and implement a double-ended queue (deque) with constant time operations,A. Use a doubly linked list;B. Array-based approach;C. Priority queue;D. Circular buffer,A,Hard,Create
+Trees,Find the diameter of a binary tree,A. Recursive approach;B. Dynamic programming;C. Breadth-first search (BFS);D. Depth-first search (DFS),A,Hard,Analyze
+Graphs,Write a function to find the shortest path in an unweighted graph,A. Dijkstra's algorithm;B. Breadth-first search (BFS);C. Bellman-Ford algorithm;D. Floyd-Warshall algorithm,B,Medium,Apply
+Sorting,Implement the heap sort algorithm,A. Use a priority queue;B. Sift-down operation;C. Bubble sort;D. Merge sort,A,Hard,Create
+Searching,Find the square root of a given number without using library functions,A. Binary search;B. Newton's method;C. Linear search;D. Recursive approach,B,Medium,Analyze
+Recursion,Write a recursive function to generate all subsets of a set,A. Use dynamic programming;B. Backtracking;C. Iterative approach;D. Recursive hashing,B,Hard,Create
+Dynamic Programming,Solve the Coin Change problem using dynamic programming,A. Recursive approach;B. Greedy algorithm;C. Bottom-up approach;D. Knapsack problem approach,C,Hard,Analyze
+Bit Manipulation,"Count the number of bits required to convert integer ""A"" to integer ""B"",A. Use XOR;B. Bitwise AND operation;C. Hamming distance;D. Recursive approach,C,Medium,Apply",A. Use XOR;B. Bitwise AND operation;C. Hamming distance;D. Recursive approach,C,Medium,Apply
+Hashing,Implement a perfect hash function,A. Cuckoo hashing;B. Linear probing;C. Double hashing;D. Quadratic probing,A,Hard,Create
+Heap,Design and implement a priority queue using a max heap,A. Use a linked list;B. Binary search tree;C. Array representation;D. Fibonacci heap,C,Hard,Analyze
+Strings,Write a function to check if a string is a valid palindrome,A. Use two pointers;B. Regular expressions;C. Reverse and compare;D. Convert to lowercase and compare,A,Medium,Apply
+Greedy Algorithms,Implement Huffman coding for data compression,A. Dynamic programming;B. Recursive approach;C. Trie data structure;D. Priority queue,C,Hard,Create
+Backtracking,Solve the Rat in a Maze problem using backtracking,A. Recursive approach;B. Dynamic programming;C. Iterative solving;D. Breadth-first search (BFS),A,Hard,Analyze
+Array,Find the minimum element in a rotated sorted array,A. Binary search;B. Linear search;C. Sort and find;D. Recursive approach,A,Medium,Apply
+Linked List,Write a function to reverse alternate K nodes in a linked list,A. Recursive approach;B. Iterative swapping;C. Dynamic programming;D. Use a stack,B,Hard,Create
+Stacks,Implement a function to sort a stack,A. Use an additional stack;B. Recursive sorting;C. Insertion sort;D. Merge sort,A,Hard,Analyze
+Queues,Design and implement a priority queue using a min heap,A. Use a linked list;B. Binary search tree;C. Array representation;D. Fibonacci heap,A,Hard,Create
+Trees,Write a function to serialize and deserialize a binary tree,A. Preorder traversal;B. Inorder traversal;C. Level-order traversal;D. Morris traversal,C,Hard,Analyze
+Graphs,Find the strongly connected components (SCCs) in a directed graph,A. Kosaraju's algorithm;B. Tarjan's algorithm;C. Prim's algorithm;D. Kruskal's algorithm,A,Hard,Create
+Sorting,Implement the counting sort algorithm,A. Radix sort;B. Bucket sort;C. Merge sort;D. Bubble sort,A,Medium,Apply
+Searching,Perform exponential search on a sorted array,A. Binary search;B. Linear search;C. Interpolation search;D. Hashing,C,Hard,Analyze
+Recursion,"Write a recursive function to generate all valid combinations of ""n"" pairs of parentheses,A. Backtracking;B. Dynamic programming;C. Iterative approach;D. Recursive hashing,A,Hard,Create",A. Backtracking;B. Dynamic programming;C. Iterative approach;D. Recursive hashing,A,Hard,Create
+Dynamic Programming,Solve the Matrix Chain Multiplication problem using dynamic programming,A. Recursive approach;B. Bottom-up approach;C. Greedy algorithm;D. Strassen's algorithm,B,Hard,Analyze
+Bit Manipulation,Check if a given number is a power of two,A. Bitwise AND operation;B. Bitwise XOR operation;C. Recursive approach;D. Count set bits,B,Medium,Apply
+Heap,Implement a min-max heap and perform heap operations,A. Use two separate heaps;B. Binary search tree;C. Fibonacci heap;D. Array representation with alternate levels,B,Hard,Analyze
+Strings,Write a function to perform string matching using the Rabin-Karp algorithm,A. Brute force matching;B. Knuth-Morris-Pratt algorithm;C. Boyer-Moore algorithm;D. Z algorithm,A,Hard,Apply
+Greedy Algorithms,Implement the Interval Scheduling problem using the greedy algorithm,A. Earliest finish time first;B. Shortest job next;C. Longest job next;D. Round-robin scheduling,A,Hard,Create
+Backtracking,Solve the Knight's Tour problem using backtracking,A. Recursive approach;B. Dynamic programming;C. Iterative solving;D. Breadth-first search (BFS),A,Hard,Analyze
+Arrays,When is it advisable to use a hybrid sorting algorithm like Timsort over traditional sorting algorithms?,A. When the dataset is small;B. When the dataset is already partially sorted;C. When the dataset is sorted in reverse order;D. When the dataset has duplicates,B,Medium,Apply
+Linked Lists,What is the primary advantage of using a doubly linked list over a singly linked list?,A. Lower memory usage;B. Simplicity in implementation;C. Efficient traversal;D. Flexibility in insertion and deletion,D,Easy,Understand
+Queues,How does a double-ended queue (deque) differ from a regular queue?,A. It allows elements to be added or removed from both ends;B. It follows LIFO order;C. It only allows enqueue operations;D. It has a fixed size,A,Medium,Apply
+Trees,"What is the purpose of the ""height"" of a tree?,A. To measure the number of nodes;B. To determine the balance;C. To represent the depth;D. To measure the length,B,Easy,Understand",A. To measure the number of nodes;B. To determine the balance;C. To represent the depth;D. To measure the length,B,Easy,Understand
+Linked Lists,Which type of linked list is most suitable for implementing a queue?,A. Singly linked list;B. Doubly linked list;C. Circular linked list;D. Skip list,B,Medium,Apply
+Queues,What is the purpose of a priority queue in computer science?,A. To manage resources;B. To execute threads;C. To assign priorities to elements;D. To implement random access,C,Medium,Analyze
+Arrays,What is the primary advantage of using a hash table for searching over a linear search in an unsorted array?,A. Constant time complexity;B. Lower space complexity;C. Guaranteed sorting;D. Faster in worst-case scenarios,A,Medium,Analyze
+Queues,What happens if you try to dequeue an element from a full queue?,A. It results in an error;B. The front pointer is set to NULL;C. The rear pointer is set to NULL;D. Nothing happens,A,Medium,Apply
+Graphs,What is the time complexity of determining if there is a cycle in an undirected graph using depth-first search (DFS)?,A. O(1);B. O(log n);C. O(n);D. O(n^2),C,Medium,Apply
+Arrays,When is it advisable to use a hybrid sorting algorithm like Timsort over traditional sorting algorithms?,A. When the dataset is small;B. When the dataset is already partially sorted;C. When the dataset is sorted in reverse order;D. When the dataset has duplicates,B,Medium,Apply
+Linked Lists,What is the primary advantage of using a doubly linked list over a singly linked list?,A. Lower memory usage;B. Simplicity in implementation;C. Efficient traversal;D. Flexibility in insertion and deletion,D,Easy,Understand
+Queues,How does a double-ended queue (deque) differ from a regular queue?,A. It allows elements to be added or removed from both ends;B. It follows LIFO order;C. It only allows enqueue operations;D. It has a fixed size,A,Medium,Apply
+Trees,"What is the purpose of the ""height"" of a tree?,A. To measure the number of nodes;B. To determine the balance;C. To represent the depth;D. To measure the length,B,Easy,Understand",A. To measure the number of nodes;B. To determine the balance;C. To represent the depth;D. To measure the length,B,Easy,Understand
+Linked Lists,Which type of linked list is most suitable for implementing a queue?,A. Singly linked list;B. Doubly linked list;C. Circular linked list;D. Skip list,B,Medium,Apply
+Queues,What is the purpose of a priority queue in computer science?,A. To manage resources;B. To execute threads;C. To assign priorities to elements;D. To implement random access,C,Medium,Analyze
+Arrays,What is the primary advantage of using a hash table for searching over a linear search in an unsorted array?,A. Constant time complexity;B. Lower space complexity;C. Guaranteed sorting;D. Faster in worst-case scenarios,A,Medium,Analyze
+Queues,What happens if you try to dequeue an element from a full queue?,A. It results in an error;B. The front pointer is set to NULL;C. The rear pointer is set to NULL;D. Nothing happens,A,Medium,Apply
+Topic,Question,Options1;Options2;Options3;Options4,Answer,Difficulty,Bloom's Taxonomy Level
+Array, Find the sum of two largest elements, A. Sort & pick last two; B. Iterate & maintain track; C. Min Heap; D. Max Heap, B, Medium, Apply
+Array, Find the missing number in an arithmetic progression, A. Formula; B. Iterate & compare differences; C. Use XOR; D. Use hash table, A, Easy, Understand
+Array, Find the element appearing once in an array of twice repeated elements, A. Iterate & count occurrences; B. Use XOR; C. Use hash table; D. Sort & compare, B, Medium, Analyze
+Array, Check if an array is a subset of another, A. Iterate & compare; B. Sort & use binary search; C. Use hash table; D. Use frequency counter, C, Medium, Evaluate
+Array, Find the equilibrium index in an array, A. Iterate & calculate prefix/suffix sums; B. Two-pointer approach; C. Use formula; D. Sort & check, B, Medium, Analyze
+Stack, Implement a balanced parenthesis checker, A. Use a single stack; B. Use two stacks; C. Use recursion; D. Use hash table, B, Easy, Create
+Stack, Reverse a string using a stack, A. Iterate & push characters; B. Recursively push & pop; C. Use StringBuilder; D. Slice & reverse, B, Easy, Apply
+Stack, Evaluate a postfix expression, A. Iterate & use stack; B. Recursively evaluate; C. Convert to infix & evaluate; D. Use two stacks, A, Medium, Create
+Queue, Implement a circular queue, A. Use a fixed-size array; B. Use dynamic resizing; C. Use two pointers; D. Use linked list, C, Medium, Create
+Queue, Implement a priority queue, A. Use a sorted array; B. Use a binary heap; C. Use a linked list; D. Use hash table, B, Medium, Create
+Array,Find the maximum element in an array,A. Iterate and compare;B. Use a max heap;C. Use a min heap;D. Use sorting,D,Medium,Apply
+Array,Rotate an array to the right by k steps,A. Use additional array;B. Reverse the whole array;C. Use cyclic replacements;D. Apply rotation formula,C,Hard,Analyze
+Array,Find the sum of two largest elements,A. Sort & pick last two;B. Iterate & maintain track;C. Min Heap;D. Max Heap,B,Medium,Apply
+Array,Find the missing number in an arithmetic progression,A. Formula;B. Iterate & compare differences;C. Use XOR;D. Use hash table,A,Easy,Understand
+Array,Find the element appearing once in twice repeated elements,A. Iterate & count occurrences;B. Use XOR;C. Use hash table;D. Sort & compare,B,Medium,Analyze
+Array,Check if an array is a subset of another,A. Iterate & compare;B. Sort & use binary search;C. Use hash table;D. Use frequency counter,C,Medium,Evaluate
+Array,Find the equilibrium index in an array,A. Iterate & calculate prefix/suffix sums;B. Two-pointer approach;C. Use formula;D. Sort & check,B,Medium,Analyze
+Stack,Implement a balanced parenthesis checker,A. Use a single stack;B. Use two stacks;C. Use recursion;D. Use hash table,B,Easy,Create
+Stack,Reverse a string using a stack,A. Iterate & push characters;B. Recursively push & pop;C. Use StringBuilder;D. Slice & reverse,B,Easy,Apply
+Stack,Evaluate a postfix expression,A. Iterate & use stack;B. Recursively evaluate;C. Convert to infix & evaluate;D. Use two stacks,A,Medium,Create
+Queue,Implement a circular queue,A. Use a fixed-size array;B. Use dynamic resizing;C. Use two pointers;D. Use linked list,C,Medium,Create
+Queue,Implement a priority queue,A. Use a sorted array;B. Use a binary heap;C. Use a linked list;D. Use hash table,B,Medium,Create
+Tree,In-order traversal of a binary tree,A. Recursive approach;B. Iterative approach;C. Level-order traversal;D. Pre-order traversal,A,Easy,Apply
+Tree,Search for a node in a binary search tree,A. Iterate & compare;B. Recursive search;C. Use level-order traversal;D. Use Morris traversal,B,Medium,Analyze
+Tree,Insert a node into a binary search tree,A. Recursively insert & maintain order;B. Use iterative approach;C. Convert to list & insert;D. Use level-order traversal,A,Medium,Create
+Tree,Find the height of a binary tree,A. Recursive approach;B. Iterative approach;C. Level-order traversal;D. Pre-order traversal,A,Easy,Analyze
+Tree,Check if a binary tree is a binary search tree,A. In-order traversal & check order;B. Recursively check properties;C. Use level-order traversal;D. Use Morris traversal,A,Medium,Analyze
+Graph,Breadth-First Search (BFS) traversal of a graph,A. Use recursion;B. Use queue & level-order traversal;C. Use depth-first search;D. Use topological sort,B,Medium,Apply
+Graph,Depth-First Search (DFS) traversal of a graph,A. Use recursion & explore neighbors;B. Use stack & backtracking;C. Use breadth-first search;D. Use topological sort,A,Medium,Apply
+Graph,Check if a graph is connected,A. Use BFS or DFS & explore all nodes;B. Use connected components algorithm;C. Use topological sort;D. Use spanning tree algorithm,A,Medium,Analyze
+Graph,Detect a cycle in an undirected graph,A. Use DFS & backtracking;B. Use BFS & level-order traversal;C. Use topological sort;D. Use Kruskal's algorithm,A,Medium,Analyze
+Graph,Find the shortest path between two nodes in a weighted graph,A. Use Dijkstra's algorithm;B. Use Bellman-Ford algorithm;C. Use Floyd-Warshall algorithm;D. Use Prim's algorithm,A,Medium,Analyze
+String,Find the longest substring without repeating characters,A. Use sliding window technique;B. Use hash table;C. Use brute force;D. Use prefix sums,A,Medium,Analyze
+String,Find all permutations of a string,A. Use recursion;B. Use iterative approach;C. Use backtracking;D. Use sorting,C,Medium,Create
+String,Find the most frequent character in a string,A. Iterate and count occurrences;B. Use hash table;C. Use sorting;D. Use prefix sums,B,Easy,Analyze
+Hashing,Implement a hash table,A. Use an array and linked lists;B. Use open addressing;C. Use chaining;D. Use perfect hashing,C,Medium,Create
+Hashing,Find the intersection of two sets using hash tables,A. Use nested loops;B. Use sorted arrays;C. Use hash tables;D. Use set operations,C,Easy,Apply
+Hashing,Find the union of two sets using hash tables,A. Use nested loops;B. Use sorted arrays;C. Use hash tables;D. Use set operations,C,Easy,Apply
+Sorting,Implement bubble sort,A. Use nested loops and swap elements;B. Use recursion;C. Use a helper function;D. Use built-in sort,A,Easy,Create
+Sorting,Implement selection sort,A. Find minimum element and swap;B. Use nested loops;C. Use recursion;D. Use built-in sort,A,Easy,Create
+Sorting,Implement insertion sort,A. Insert each element into sorted sub-array;B. Use nested loops;C. Use recursion;D. Use built-in sort,A,Easy,Create
+Heap,Implement a min-heap,A. Use an array and heapify operations;B. Use linked list;C. Use hash table;D. Use built-in heap,A,Medium,Create
+Heap,Implement a max-heap,A. Use an array and heapify operations;B. Use linked list;C. Use hash table;D. Use built-in heap,A,Medium,Create
+Heap,Extract minimum from a min-heap,A. Update root & heapify;B. Use recursion;C. Use iteration;D. Use built-in heap,A,Easy,Apply
+Heap,Extract maximum from a max-heap,A. Update root & heapify;B. Use recursion;C. Use iteration;D. Use built-in heap,A,Easy,Apply
+Trie,Implement a trie,A. Use an array & pointers;B. Use linked list;C. Use hash table;D. Use built-in trie,C,Medium,Create
+Trie,Search for a word in a trie,A. Traverse trie based on characters;B. Use recursion;C. Use iteration;D. Use built-in trie,A,Medium,Apply
+Trie,Insert a word into a trie,A. Traverse trie & create nodes;B. Use recursion;C. Use iteration;D. Use built-in trie,A,Medium,Apply
+Searching,Implement linear search,A. Iterate and compare;B. Use recursion;C. Use hash table;D. Use binary search,A,Easy,Apply
+Searching,Implement jump search,A. Jump based on step size;B. Use recursion;C. Use iteration;D. Use binary search,C,Medium,Analyze
+Greedy,Implement fractional knapsack algorithm,A. Sort by value/weight ratio;B. Use dynamic programming;C. Use brute force;D. Use approximation,A,Medium,Apply
+Greedy,Implement activity selection algorithm,A. Sort by finish time;B. Use dynamic programming;C. Use brute force;D. Use approximation,A,Medium,Apply
+Backtracking,Solve N-Queens problem,A. Try placing queens in each row;B. Use dynamic programming;C. Use iterative approach;D. Use brute force,C,Medium,Apply
+Backtracking,Solve Sudoku,,,,
